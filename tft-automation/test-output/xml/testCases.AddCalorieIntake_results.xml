@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Calorie Intake"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="171.994">
+  <properties />
+  
+  
+            <testcase name="addCalorieIntakeForWeek" time="157.912" classname="testCases.AddCalorieIntake" />
+                <testcase name="validateLast7NutritionalItems" time="14.082" classname="testCases.AddCalorieIntake" />
+      
+</testsuite>

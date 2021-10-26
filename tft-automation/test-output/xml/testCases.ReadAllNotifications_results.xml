@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReadAllNotifications"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="185.523">
+  <properties />
+  
+  
+            <testcase name="readNumberOfNotifications" time="25.280" classname="testCases.ReadAllNotifications" />
+                <testcase name="readNumberOfNotifications" time="20.334" classname="testCases.ReadAllNotifications" />
+                <testcase name="readNumberOfNotifications" time="21.994" classname="testCases.ReadAllNotifications" />
+                <testcase name="readNumberOfNotifications" time="22.478" classname="testCases.ReadAllNotifications" />
+                <testcase name="readNumberOfNotifications" time="19.079" classname="testCases.ReadAllNotifications" />
+                <testcase name="readNumberOfNotifications" time="19.362" classname="testCases.ReadAllNotifications" />
+                <testcase name="readNumberOfNotifications" time="17.208" classname="testCases.ReadAllNotifications" />
+                <testcase name="readNumberOfNotifications" time="17.849" classname="testCases.ReadAllNotifications" />
+                <testcase name="readNumberOfNotifications" time="21.939" classname="testCases.ReadAllNotifications" />
+      
+</testsuite>

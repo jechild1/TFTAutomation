@@ -1,0 +1,798 @@
+<html>
+<head>
+<title>TestNG:  ReadAllNotifications</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ReadAllNotifications</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 22 18:01:10 EDT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>195 seconds (195349 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.ReadAllNotifications.readNumberOfNotifications()'><b>readNumberOfNotifications</b><br>Test class: testCases.ReadAllNotifications<br>Parameters: jchildress, P@ssword1<br/>
+<a href="#Output-923527250" onClick='toggleBox("Output-923527250", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-923527250" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-923527250">
+Method: login<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.WarningAndConsentBannerMod</u></b><br/>
+<br><br/>
+Method: validateAndCloseUSGWarningsAndConsentPopup<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGModalHeader<br/>
+<br/>
+Method: readModalHeader<br/>
+<br/>
+Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGBodyText<br/>
+<br/>
+Method: readModalBodyText<br/>
+<br/>
+Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: clickOK<br/>
+<br/>
+OK clicked on USG Warning and Consent Banner<br/>
+Clicking OK took PT0.857S seconds to complete<br/>
+<br/>
+Method: clickLoginLink<br/>
+<br/>
+Waiting for page to load completely...<br/>
+The page 'Login - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.LoginMod</u></b><br/>
+<br><br/>
+Method: login<br/>
+<br/>
+Logging in with User Name: jchildress and Password: P@ssword1<br/>
+Setting the User Name field<br/>
+User Name field set to jchildress<br/>
+<br/>
+Setting the Password field<br/>
+User Password field set to P@ssword1<br/>
+<br/>
+Method: readUserName<br/>
+<br/>
+User Name field has value: jchildress<br/>
+<br/>
+Password Name Read<br/>
+Password field has value: P@ssword1<br/>
+<br/>
+Clicking Log in button<br/>
+Log in button clicked<br/>
+<br/>
+Reading Notifications - Original Number of notifications: 1<br/>
+Waiting for page to load completely...<br/>
+The page 'Notifications - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+Table Text Automation Test - Subject I<br/>
+Beginning link click for row.<br/>
+Waiting for page to load completely...<br/>
+The page 'Notification Details - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+Waiting for page to load completely...<br/>
+The page 'Notifications - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>testCases.ReadAllNotifications@762ef0ea</td></tr>
+<tr>
+<td title='testCases.ReadAllNotifications.readNumberOfNotifications()'><b>readNumberOfNotifications</b><br>Test class: testCases.ReadAllNotifications<br>Parameters: jennychildress, P@ssword1<br/>
+<a href="#Output-821227189" onClick='toggleBox("Output-821227189", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-821227189" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-821227189">
+Method: login<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.WarningAndConsentBannerMod</u></b><br/>
+<br><br/>
+Method: validateAndCloseUSGWarningsAndConsentPopup<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGModalHeader<br/>
+<br/>
+Method: readModalHeader<br/>
+<br/>
+Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGBodyText<br/>
+<br/>
+Method: readModalBodyText<br/>
+<br/>
+Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: clickOK<br/>
+<br/>
+OK clicked on USG Warning and Consent Banner<br/>
+Clicking OK took PT0.802S seconds to complete<br/>
+<br/>
+Method: clickLoginLink<br/>
+<br/>
+Waiting for page to load completely...<br/>
+The page 'Login - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.LoginMod</u></b><br/>
+<br><br/>
+Method: login<br/>
+<br/>
+Logging in with User Name: jennychildress and Password: P@ssword1<br/>
+Setting the User Name field<br/>
+User Name field set to jennychildress<br/>
+<br/>
+Setting the Password field<br/>
+User Password field set to P@ssword1<br/>
+<br/>
+Method: readUserName<br/>
+<br/>
+User Name field has value: jennychildress<br/>
+<br/>
+Password Name Read<br/>
+Password field has value: P@ssword1<br/>
+<br/>
+Clicking Log in button<br/>
+Log in button clicked<br/>
+<br/>
+Reading Notifications - Original Number of notifications: 1<br/>
+Waiting for page to load completely...<br/>
+The page 'Notifications - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+Table Text Automation Test - Subject I<br/>
+Beginning link click for row.<br/>
+Waiting for page to load completely...<br/>
+The page 'Notification Details - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+Waiting for page to load completely...<br/>
+The page 'Notifications - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>testCases.ReadAllNotifications@762ef0ea</td></tr>
+<tr>
+<td title='testCases.ReadAllNotifications.readNumberOfNotifications()'><b>readNumberOfNotifications</b><br>Test class: testCases.ReadAllNotifications<br>Parameters: bmullins, P@ssword1<br/>
+<a href="#Output-1758209409" onClick='toggleBox("Output-1758209409", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1758209409" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1758209409">
+Method: login<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.WarningAndConsentBannerMod</u></b><br/>
+<br><br/>
+Method: validateAndCloseUSGWarningsAndConsentPopup<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGModalHeader<br/>
+<br/>
+Method: readModalHeader<br/>
+<br/>
+Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGBodyText<br/>
+<br/>
+Method: readModalBodyText<br/>
+<br/>
+Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: clickOK<br/>
+<br/>
+OK clicked on USG Warning and Consent Banner<br/>
+Clicking OK took PT0.852S seconds to complete<br/>
+<br/>
+Method: clickLoginLink<br/>
+<br/>
+Waiting for page to load completely...<br/>
+The page 'Login - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.LoginMod</u></b><br/>
+<br><br/>
+Method: login<br/>
+<br/>
+Logging in with User Name: bmullins and Password: P@ssword1<br/>
+Setting the User Name field<br/>
+User Name field set to bmullins<br/>
+<br/>
+Setting the Password field<br/>
+User Password field set to P@ssword1<br/>
+<br/>
+Method: readUserName<br/>
+<br/>
+User Name field has value: bmullins<br/>
+<br/>
+Password Name Read<br/>
+Password field has value: P@ssword1<br/>
+<br/>
+Clicking Log in button<br/>
+Log in button clicked<br/>
+<br/>
+Reading Notifications - Original Number of notifications: 0<br/>
+Waiting for page to load completely...<br/>
+The page 'Notifications - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+There were no unread records for this user<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>testCases.ReadAllNotifications@762ef0ea</td></tr>
+<tr>
+<td title='testCases.ReadAllNotifications.readNumberOfNotifications()'><b>readNumberOfNotifications</b><br>Test class: testCases.ReadAllNotifications<br>Parameters: astanley, P@ssword1<br/>
+<a href="#Output-1327804927" onClick='toggleBox("Output-1327804927", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1327804927" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1327804927">
+Method: login<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.WarningAndConsentBannerMod</u></b><br/>
+<br><br/>
+Method: validateAndCloseUSGWarningsAndConsentPopup<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGModalHeader<br/>
+<br/>
+Method: readModalHeader<br/>
+<br/>
+Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGBodyText<br/>
+<br/>
+Method: readModalBodyText<br/>
+<br/>
+Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: clickOK<br/>
+<br/>
+OK clicked on USG Warning and Consent Banner<br/>
+Clicking OK took PT0.845S seconds to complete<br/>
+<br/>
+Method: clickLoginLink<br/>
+<br/>
+Waiting for page to load completely...<br/>
+The page 'Login - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.LoginMod</u></b><br/>
+<br><br/>
+Method: login<br/>
+<br/>
+Logging in with User Name: astanley and Password: P@ssword1<br/>
+Setting the User Name field<br/>
+User Name field set to astanley<br/>
+<br/>
+Setting the Password field<br/>
+User Password field set to P@ssword1<br/>
+<br/>
+Method: readUserName<br/>
+<br/>
+User Name field has value: astanley<br/>
+<br/>
+Password Name Read<br/>
+Password field has value: P@ssword1<br/>
+<br/>
+Clicking Log in button<br/>
+Log in button clicked<br/>
+<br/>
+Reading Notifications - Original Number of notifications: 1<br/>
+Waiting for page to load completely...<br/>
+The page 'Notifications - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+Table Text Automation Test - Subject I<br/>
+Beginning link click for row.<br/>
+Waiting for page to load completely...<br/>
+The page 'Notification Details - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+Waiting for page to load completely...<br/>
+The page 'Notifications - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>testCases.ReadAllNotifications@762ef0ea</td></tr>
+<tr>
+<td title='testCases.ReadAllNotifications.readNumberOfNotifications()'><b>readNumberOfNotifications</b><br>Test class: testCases.ReadAllNotifications<br>Parameters: jakechildress, P@ssword1<br/>
+<a href="#Output-779754183" onClick='toggleBox("Output-779754183", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-779754183" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-779754183">
+Method: login<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.WarningAndConsentBannerMod</u></b><br/>
+<br><br/>
+Method: validateAndCloseUSGWarningsAndConsentPopup<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGModalHeader<br/>
+<br/>
+Method: readModalHeader<br/>
+<br/>
+Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGBodyText<br/>
+<br/>
+Method: readModalBodyText<br/>
+<br/>
+Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: clickOK<br/>
+<br/>
+OK clicked on USG Warning and Consent Banner<br/>
+Clicking OK took PT0.824S seconds to complete<br/>
+<br/>
+Method: clickLoginLink<br/>
+<br/>
+Waiting for page to load completely...<br/>
+The page 'Login - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.LoginMod</u></b><br/>
+<br><br/>
+Method: login<br/>
+<br/>
+Logging in with User Name: jakechildress and Password: P@ssword1<br/>
+Setting the User Name field<br/>
+User Name field set to jakechildress<br/>
+<br/>
+Setting the Password field<br/>
+User Password field set to P@ssword1<br/>
+<br/>
+Method: readUserName<br/>
+<br/>
+User Name field has value: jakechildress<br/>
+<br/>
+Password Name Read<br/>
+Password field has value: P@ssword1<br/>
+<br/>
+Clicking Log in button<br/>
+Log in button clicked<br/>
+<br/>
+Reading Notifications - Original Number of notifications: 1<br/>
+Waiting for page to load completely...<br/>
+The page 'Notifications - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+Table Text Automation Test - Subject I<br/>
+Beginning link click for row.<br/>
+Waiting for page to load completely...<br/>
+The page 'Notification Details - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+Waiting for page to load completely...<br/>
+The page 'Notifications - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>testCases.ReadAllNotifications@762ef0ea</td></tr>
+<tr>
+<td title='testCases.ReadAllNotifications.readNumberOfNotifications()'><b>readNumberOfNotifications</b><br>Test class: testCases.ReadAllNotifications<br>Parameters: echildress, P@ssword1<br/>
+<a href="#Output-594025261" onClick='toggleBox("Output-594025261", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-594025261" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-594025261">
+Method: login<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.WarningAndConsentBannerMod</u></b><br/>
+<br><br/>
+Method: validateAndCloseUSGWarningsAndConsentPopup<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGModalHeader<br/>
+<br/>
+Method: readModalHeader<br/>
+<br/>
+Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGBodyText<br/>
+<br/>
+Method: readModalBodyText<br/>
+<br/>
+Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: clickOK<br/>
+<br/>
+OK clicked on USG Warning and Consent Banner<br/>
+Clicking OK took PT0.844S seconds to complete<br/>
+<br/>
+Method: clickLoginLink<br/>
+<br/>
+Waiting for page to load completely...<br/>
+The page 'Login - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.LoginMod</u></b><br/>
+<br><br/>
+Method: login<br/>
+<br/>
+Logging in with User Name: echildress and Password: P@ssword1<br/>
+Setting the User Name field<br/>
+User Name field set to echildress<br/>
+<br/>
+Setting the Password field<br/>
+User Password field set to P@ssword1<br/>
+<br/>
+Method: readUserName<br/>
+<br/>
+User Name field has value: echildress<br/>
+<br/>
+Password Name Read<br/>
+Password field has value: P@ssword1<br/>
+<br/>
+Clicking Log in button<br/>
+Log in button clicked<br/>
+<br/>
+Reading Notifications - Original Number of notifications: 0<br/>
+Waiting for page to load completely...<br/>
+The page 'Notifications - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+There were no unread records for this user<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>testCases.ReadAllNotifications@762ef0ea</td></tr>
+<tr>
+<td title='testCases.ReadAllNotifications.readNumberOfNotifications()'><b>readNumberOfNotifications</b><br>Test class: testCases.ReadAllNotifications<br>Parameters: chuckchildress, P@ssword1<br/>
+<a href="#Output-1506222535" onClick='toggleBox("Output-1506222535", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1506222535" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1506222535">
+Method: login<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.WarningAndConsentBannerMod</u></b><br/>
+<br><br/>
+Method: validateAndCloseUSGWarningsAndConsentPopup<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGModalHeader<br/>
+<br/>
+Method: readModalHeader<br/>
+<br/>
+Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGBodyText<br/>
+<br/>
+Method: readModalBodyText<br/>
+<br/>
+Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: clickOK<br/>
+<br/>
+OK clicked on USG Warning and Consent Banner<br/>
+Clicking OK took PT0.866S seconds to complete<br/>
+<br/>
+Method: clickLoginLink<br/>
+<br/>
+Waiting for page to load completely...<br/>
+The page 'Login - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.LoginMod</u></b><br/>
+<br><br/>
+Method: login<br/>
+<br/>
+Logging in with User Name: chuckchildress and Password: P@ssword1<br/>
+Setting the User Name field<br/>
+User Name field set to chuckchildress<br/>
+<br/>
+Setting the Password field<br/>
+User Password field set to P@ssword1<br/>
+<br/>
+Method: readUserName<br/>
+<br/>
+User Name field has value: chuckchildress<br/>
+<br/>
+Password Name Read<br/>
+Password field has value: P@ssword1<br/>
+<br/>
+Clicking Log in button<br/>
+Log in button clicked<br/>
+<br/>
+Reading Notifications - Original Number of notifications: 1<br/>
+Waiting for page to load completely...<br/>
+The page 'Notifications - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+Table Text Automation Test - Subject I<br/>
+Beginning link click for row.<br/>
+Waiting for page to load completely...<br/>
+The page 'Notification Details - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+Waiting for page to load completely...<br/>
+The page 'Notifications - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>testCases.ReadAllNotifications@762ef0ea</td></tr>
+<tr>
+<td title='testCases.ReadAllNotifications.readNumberOfNotifications()'><b>readNumberOfNotifications</b><br>Test class: testCases.ReadAllNotifications<br>Parameters: heatherchildress, P@ssword1<br/>
+<a href="#Output-375575310" onClick='toggleBox("Output-375575310", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-375575310" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-375575310">
+Method: login<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.WarningAndConsentBannerMod</u></b><br/>
+<br><br/>
+Method: validateAndCloseUSGWarningsAndConsentPopup<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGModalHeader<br/>
+<br/>
+Method: readModalHeader<br/>
+<br/>
+Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGBodyText<br/>
+<br/>
+Method: readModalBodyText<br/>
+<br/>
+Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: clickOK<br/>
+<br/>
+OK clicked on USG Warning and Consent Banner<br/>
+Clicking OK took PT0.851S seconds to complete<br/>
+<br/>
+Method: clickLoginLink<br/>
+<br/>
+Waiting for page to load completely...<br/>
+The page 'Login - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.LoginMod</u></b><br/>
+<br><br/>
+Method: login<br/>
+<br/>
+Logging in with User Name: heatherchildress and Password: P@ssword1<br/>
+Setting the User Name field<br/>
+User Name field set to heatherchildress<br/>
+<br/>
+Setting the Password field<br/>
+User Password field set to P@ssword1<br/>
+<br/>
+Method: readUserName<br/>
+<br/>
+User Name field has value: heatherchildress<br/>
+<br/>
+Password Name Read<br/>
+Password field has value: P@ssword1<br/>
+<br/>
+Clicking Log in button<br/>
+Log in button clicked<br/>
+<br/>
+Reading Notifications - Original Number of notifications: 0<br/>
+Waiting for page to load completely...<br/>
+The page 'Notifications - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+There were no unread records for this user<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>testCases.ReadAllNotifications@762ef0ea</td></tr>
+<tr>
+<td title='testCases.ReadAllNotifications.readNumberOfNotifications()'><b>readNumberOfNotifications</b><br>Test class: testCases.ReadAllNotifications<br>Parameters: larrychildress, P@ssword1<br/>
+<a href="#Output-1517777532" onClick='toggleBox("Output-1517777532", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1517777532" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1517777532">
+Method: login<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.WarningAndConsentBannerMod</u></b><br/>
+<br><br/>
+Method: validateAndCloseUSGWarningsAndConsentPopup<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGModalHeader<br/>
+<br/>
+Method: readModalHeader<br/>
+<br/>
+Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: validateUSGBodyText<br/>
+<br/>
+Method: readModalBodyText<br/>
+<br/>
+Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b><br/>
+<br><br/>
+Method: clickOK<br/>
+<br/>
+OK clicked on USG Warning and Consent Banner<br/>
+Clicking OK took PT0.873S seconds to complete<br/>
+<br/>
+Method: clickLoginLink<br/>
+<br/>
+Waiting for page to load completely...<br/>
+The page 'Login - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+<br><br/>
+<b>Class: <u>modularScripts.LoginMod</u></b><br/>
+<br><br/>
+Method: login<br/>
+<br/>
+Logging in with User Name: larrychildress and Password: P@ssword1<br/>
+Setting the User Name field<br/>
+User Name field set to larrychildress<br/>
+<br/>
+Setting the Password field<br/>
+User Password field set to P@ssword1<br/>
+<br/>
+Method: readUserName<br/>
+<br/>
+User Name field has value: larrychildress<br/>
+<br/>
+Password Name Read<br/>
+Password field has value: P@ssword1<br/>
+<br/>
+Clicking Log in button<br/>
+Log in button clicked<br/>
+<br/>
+Reading Notifications - Original Number of notifications: 0<br/>
+Waiting for page to load completely...<br/>
+The page 'Notifications - Team Fitness Tracker' is fully loaded now.<br/>
+<br/>
+There were no unread records for this user<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>testCases.ReadAllNotifications@762ef0ea</td></tr>
+</table><p>
+</body>
+</html>

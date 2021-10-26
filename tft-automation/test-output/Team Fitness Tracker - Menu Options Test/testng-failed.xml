@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Team Fitness Tracker - Menu Options Test]" parallel="tests">
+  <test thread-count="1" name="Menu Test for Admin(failed)" parallel="tests">
+    <classes>
+      <class name="testCases.ExerciseAllMenusAdmin">
+        <methods>
+          <include name="afterClass"/>
+          <include name="exerciseReportsAdmin"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testCases.ExerciseAllMenusAdmin -->
+    </classes>
+  </test> <!-- Menu Test for Admin(failed) -->
+  <test thread-count="1" name="Menu Test for Team Lead(failed)" parallel="tests">
+    <classes>
+      <class name="testCases.ExerciseAllMenusTeamLead">
+        <methods>
+          <include name="exerciseReportsTeamLead"/>
+          <include name="login"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testCases.ExerciseAllMenusTeamLead -->
+    </classes>
+  </test> <!-- Menu Test for Team Lead(failed) -->
+</suite> <!-- Failed suite [Team Fitness Tracker - Menu Options Test] -->

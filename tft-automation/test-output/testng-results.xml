@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Class: <u>modularScripts.LoginMod</u></b>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Method: execute]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Logging in with User Name: jechild1 who is of role type: Admin]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Method: validateUSGModalHeader]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: readModalHeader]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Method: validateUSGBodyText]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: readModalBodyText]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Method: clickOK]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[OK clicked on USG Warning and Consent Banner]]>
+    </line>
+    <line>
+      <![CDATA[Clicking OK took PT0.844S seconds to complete]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for page to load completely...]]>
+    </line>
+    <line>
+      <![CDATA[The page 'Team Fitness Tracker - Team Fitness Tracker' is fully loaded now.]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: clickLoginLink]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for page to load completely...]]>
+    </line>
+    <line>
+      <![CDATA[The page 'Login - Team Fitness Tracker' is fully loaded now.]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Setting the User Name field]]>
+    </line>
+    <line>
+      <![CDATA[User Name field set to jechild1]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Setting the Password field]]>
+    </line>
+    <line>
+      <![CDATA[User Password field set to P@ssword1]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: readUserName]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[User Name field has value: jechild1]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Password Name Read]]>
+    </line>
+    <line>
+      <![CDATA[Password field has value: P@ssword1]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Log in button]]>
+    </line>
+    <line>
+      <![CDATA[Log in button clicked]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Asserting that the My Menu Size is 18.]]>
+    </line>
+    <line>
+      <![CDATA[My Menu - Sub Menu size: 18]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 1:https://nat-p12.tatrc.org/TFT_Test/UserActivities]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 2:https://nat-p12.tatrc.org/TFT_Test/UserCalorieConsumptions]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 3:https://nat-p12.tatrc.org/TFT_Test/UserSleep]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 4:https://nat-p12.tatrc.org/TFT_Test/BodyMeasurements]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 5:https://nat-p12.tatrc.org/TFT_Test/MyProfiles]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 6:https://ods.od.nih.gov/api/]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 7:https://examine.com/]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 8:https://dsld.nlm.nih.gov/dsld/]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 9:https://medlineplus.gov/druginfo/herb_All.html]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 10:https://nat-p12.tatrc.org/TFT_Test/ACFT]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 11:https://nat-p12.tatrc.org/TFT_Test/PFT]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 12:https://nat-p12.tatrc.org/TFT_Test/Progress/Map?type=m]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 13:https://nat-p12.tatrc.org/TFT_Test/Progress/Map?type=t]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 14:https://nat-p12.tatrc.org/TFT_Test/UserBadges]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 15:https://nat-p12.tatrc.org/TFT_Test/Challenges]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 16:https://nat-p12.tatrc.org/TFT_Test/IndividualGoals]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 17:https://nat-p12.tatrc.org/TFT_Test/TeamGoals]]>
+    </line>
+    <line>
+      <![CDATA[My Menu URL # 18:https://nat-p12.tatrc.org/TFT_Test/Blogs]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Asserting that the Reports menu size is 14.]]>
+    </line>
+    <line>
+      <![CDATA[Reports - Sub Menu size: 14]]>
+    </line>
+    <line>
+      <![CDATA[Reports URL # 1:https://nat-p12.tatrc.org/TFT_Test/UnitOverall]]>
+    </line>
+    <line>
+      <![CDATA[Reports URL # 2:https://nat-p12.tatrc.org/TFT_Test/TeamLoginActivities]]>
+    </line>
+    <line>
+      <![CDATA[Reports URL # 3:https://nat-p12.tatrc.org/TFT_Test/TeamOverallSleeps]]>
+    </line>
+    <line>
+      <![CDATA[Reports URL # 4:https://nat-p12.tatrc.org/TFT_Test/TeamActivities]]>
+    </line>
+    <line>
+      <![CDATA[Reports URL # 5:https://nat-p12.tatrc.org/TFT_Test/TeamStepGoals]]>
+    </line>
+    <line>
+      <![CDATA[Reports URL # 6:https://nat-p12.tatrc.org/TFT_Test/NutrientContents]]>
+    </line>
+    <line>
+      <![CDATA[Reports URL # 7:https://nat-p12.tatrc.org/TFT_Test/BodyMeasurementChanges]]>
+    </line>
+    <line>
+      <![CDATA[Reports URL # 8:https://nat-p12.tatrc.org/TFT_Test/MyActivities]]>
+    </line>
+    <line>
+      <![CDATA[Reports URL # 9:https://nat-p12.tatrc.org/TFT_Test/MySleeps]]>
+    </line>
+    <line>
+      <![CDATA[Reports URL # 10:https://nat-p12.tatrc.org/TFT_Test/GoalHistories]]>
+    </line>
+    <line>
+      <![CDATA[Reports URL # 11:https://nat-p12.tatrc.org/TFT_Test/GoalAchievements]]>
+    </line>
+    <line>
+      <![CDATA[Reports URL # 12:https://nat-p12.tatrc.org/TFT_Test/MyCalories]]>
+    </line>
+    <line>
+      <![CDATA[Reports URL # 13:https://nat-p12.tatrc.org/TFT_Test/MyBodyMeasurementChanges]]>
+    </line>
+    <line>
+      <![CDATA[Reports URL # 14:https://nat-p12.tatrc.org/TFT_Test/TeamCurrentSteps]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Asserting that the Admin menu size is 31.]]>
+    </line>
+    <line>
+      <![CDATA[Admin - Sub Menu size: 31]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 1:https://nat-p12.tatrc.org/TFT_Test/BranchComponents]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 2:https://nat-p12.tatrc.org/TFT_Test/BranchOfServices]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 3:https://nat-p12.tatrc.org/TFT_Test/BodyMeasurementTypes]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 4:https://nat-p12.tatrc.org/TFT_Test/Goals]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 5:https://nat-p12.tatrc.org/TFT_Test/NotificationTypes]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 6:https://nat-p12.tatrc.org/TFT_Test/PFTScores]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 7:https://nat-p12.tatrc.org/TFT_Test/Role]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 8:https://nat-p12.tatrc.org/TFT_Test/Units]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 9:https://nat-p12.tatrc.org/TFT_Test/DutyPositions]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 10:https://nat-p12.tatrc.org/TFT_Test/Ranks]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 11:https://nat-p12.tatrc.org/TFT_Test/ResetPasswordByAdmin/ResetPasswordByAdmin]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 12:https://nat-p12.tatrc.org/TFT_Test/BodyStatistics]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 13:https://nat-p12.tatrc.org/TFT_Test/Activities]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 14:https://nat-p12.tatrc.org/TFT_Test/ActivityCategories]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 15:https://nat-p12.tatrc.org/TFT_Test/ActivitySources]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 16:https://nat-p12.tatrc.org/TFT_Test/Intensities]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 17:https://nat-p12.tatrc.org/TFT_Test/Moods]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 18:https://nat-p12.tatrc.org/TFT_Test/Articles]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 19:https://nat-p12.tatrc.org/TFT_Test/ArticleTypes]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 20:https://nat-p12.tatrc.org/TFT_Test/Blogs/AdminIndex]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 21:https://nat-p12.tatrc.org/TFT_Test/Food]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 22:https://nat-p12.tatrc.org/TFT_Test/MealTypes]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 23:https://nat-p12.tatrc.org/TFT_Test/Locations]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 24:https://nat-p12.tatrc.org/TFT_Test/Routes]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 25:https://nat-p12.tatrc.org/TFT_Test/RouteLocations]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 26:https://nat-p12.tatrc.org/TFT_Test/Teams]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 27:https://nat-p12.tatrc.org/TFT_Test/TeamLeads]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 28:https://nat-p12.tatrc.org/TFT_Test/UserTeams]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 29:https://nat-p12.tatrc.org/TFT_Test/AppUsers]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 30:https://nat-p12.tatrc.org/TFT_Test/UserProvisionings]]>
+    </line>
+    <line>
+      <![CDATA[Admin URL # 31:https://nat-p12.tatrc.org/TFT_Test/UserProvisionings/UserListByStatus?Status=all]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Asserting that the Hello menu size is 6.]]>
+    </line>
+    <line>
+      <![CDATA[Hello - Sub Menu size: 6]]>
+    </line>
+    <line>
+      <![CDATA[Hello Menu URL # 1:https://nat-p12.tatrc.org/TFT_Test/UserProfiles/Edit]]>
+    </line>
+    <line>
+      <![CDATA[Hello Menu URL # 2:https://nat-p12.tatrc.org/TFT_Test/PRTStatus/Edit]]>
+    </line>
+    <line>
+      <![CDATA[Hello Menu URL # 3:https://nat-p12.tatrc.org/TFT_Test/Membership]]>
+    </line>
+    <line>
+      <![CDATA[Hello Menu URL # 4:https://nat-p12.tatrc.org/TFT_Test/UserProvisionings/CheckAndUpdateProvisioningStatus]]>
+    </line>
+    <line>
+      <![CDATA[Hello Menu URL # 5:https://nat-p12.tatrc.org/TFT_Test/Manage/ChangePassword]]>
+    </line>
+    <line>
+      <![CDATA[Hello Menu URL # 6:javascript:document.getElementById('logoutForm').submit()]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for page to load completely...]]>
+    </line>
+    <line>
+      <![CDATA[The page 'Team Fitness Tracker - Team Fitness Tracker' is fully loaded now.]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: clickActivity]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: clickAdmin]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for page to load completely...]]>
+    </line>
+    <line>
+      <![CDATA[The page 'Activities - Team Fitness Tracker' is fully loaded now.]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: readPageTitle]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[<b style='color:green;'>Validation:</b> Admin - Activities]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b style='color:green;'>Matches:</b> Activities]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Method: clickActivityCategories]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: clickAdmin]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for page to load completely...]]>
+    </line>
+    <line>
+      <![CDATA[The page 'Activity Categories - Team Fitness Tracker' is fully loaded now.]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: readPageTitle]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[<b style='color:green;'>Validation:</b> Admin - Activity Category]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b style='color:green;'>Matches:</b> Activity Category]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Method: clickActivitySources]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: clickAdmin]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for page to load completely...]]>
+    </line>
+    <line>
+      <![CDATA[The page 'Activity Sources - Team Fitness Tracker' is fully loaded now.]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: readPageTitle]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[<b style='color:green;'>Validation:</b> Admin - Activity Sources]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b style='color:green;'>Matches:</b> Activity Sources]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Method: clickIntensity]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: clickAdmin]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for page to load completely...]]>
+    </line>
+    <line>
+      <![CDATA[The page 'Intensity - Team Fitness Tracker' is fully loaded now.]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: readPageTitle]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[<b style='color:green;'>Validation:</b> Admin - Intensity]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b style='color:green;'>Matches:</b> Intensity]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Method: clickMood]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: clickAdmin]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for page to load completely...]]>
+    </line>
+    <line>
+      <![CDATA[The page 'Mood List - Team Fitness Tracker' is fully loaded now.]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: readPageTitle]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[<b style='color:red;'>Validation:</b> Admin - Mood]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b style='color:red;'>Expected:</b> Mood]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b style='color:red;'>Actual:</b> Mood List]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Method: clickArticlesSubMenu]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: clickAdmin]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for page to load completely...]]>
+    </line>
+    <line>
+      <![CDATA[The page 'Articles - Team Fitness Tracker' is fully loaded now.]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: readPageTitle]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[<b style='color:green;'>Validation:</b> Admin - Articles]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b style='color:green;'>Matches:</b> Articles]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Method: clickArticleTypesSubMenu]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Method: clickAdmin]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Class: <u>utilities.AutomationHelper</u></b>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Method: finishTest]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65994" started-at="2020-01-23T11:43:49Z" finished-at="2020-01-23T11:44:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65994" started-at="2020-01-23T11:43:49Z" finished-at="2020-01-23T11:44:55Z">
+      <class name="testCases.Menus_Administrator">
+        <test-method status="FAIL" signature="executeTest(java.lang.String)[pri:0, instance:testCases.Menus_Administrator@490ab905]" name="executeTest" duration-ms="64266" started-at="2020-01-23T06:43:49Z" data-provider="adminRoles" finished-at="2020-01-23T06:44:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jechild1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <a href="/TFT_Test/ArticleTypes"> could not be scrolled into view
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'TATRC-17323', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2848, moz:profile: C:\Users\jesse.childress\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: be643713-9476-4366-8359-a02adc9862ed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a href="/TFT_Test/ArticleTypes"> could not be scrolled into view
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'TATRC-17323', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2848, moz:profile: C:\Users\jesse.childress\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: be643713-9476-4366-8359-a02adc9862ed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at pageFactories.MenusPageFactory.clickArticleTypesSubMenu(MenusPageFactory.java:1218)
+	at testCases.Menus_Administrator.assertAdminMenuContent(Menus_Administrator.java:448)
+	at testCases.Menus_Administrator.executeTest(Menus_Administrator.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Class: <u>modularScripts.LoginMod</u></b>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Method: execute]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Logging in with User Name: jechild1 who is of role type: Admin]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Method: validateUSGModalHeader]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: readModalHeader]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Method: validateUSGBodyText]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: readModalBodyText]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Method: clickOK]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[OK clicked on USG Warning and Consent Banner]]>
+            </line>
+            <line>
+              <![CDATA[Clicking OK took PT0.844S seconds to complete]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for page to load completely...]]>
+            </line>
+            <line>
+              <![CDATA[The page 'Team Fitness Tracker - Team Fitness Tracker' is fully loaded now.]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: clickLoginLink]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for page to load completely...]]>
+            </line>
+            <line>
+              <![CDATA[The page 'Login - Team Fitness Tracker' is fully loaded now.]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Setting the User Name field]]>
+            </line>
+            <line>
+              <![CDATA[User Name field set to jechild1]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Setting the Password field]]>
+            </line>
+            <line>
+              <![CDATA[User Password field set to P@ssword1]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: readUserName]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[User Name field has value: jechild1]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Password Name Read]]>
+            </line>
+            <line>
+              <![CDATA[Password field has value: P@ssword1]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Clicking Log in button]]>
+            </line>
+            <line>
+              <![CDATA[Log in button clicked]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Asserting that the My Menu Size is 18.]]>
+            </line>
+            <line>
+              <![CDATA[My Menu - Sub Menu size: 18]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 1:https://nat-p12.tatrc.org/TFT_Test/UserActivities]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 2:https://nat-p12.tatrc.org/TFT_Test/UserCalorieConsumptions]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 3:https://nat-p12.tatrc.org/TFT_Test/UserSleep]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 4:https://nat-p12.tatrc.org/TFT_Test/BodyMeasurements]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 5:https://nat-p12.tatrc.org/TFT_Test/MyProfiles]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 6:https://ods.od.nih.gov/api/]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 7:https://examine.com/]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 8:https://dsld.nlm.nih.gov/dsld/]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 9:https://medlineplus.gov/druginfo/herb_All.html]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 10:https://nat-p12.tatrc.org/TFT_Test/ACFT]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 11:https://nat-p12.tatrc.org/TFT_Test/PFT]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 12:https://nat-p12.tatrc.org/TFT_Test/Progress/Map?type=m]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 13:https://nat-p12.tatrc.org/TFT_Test/Progress/Map?type=t]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 14:https://nat-p12.tatrc.org/TFT_Test/UserBadges]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 15:https://nat-p12.tatrc.org/TFT_Test/Challenges]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 16:https://nat-p12.tatrc.org/TFT_Test/IndividualGoals]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 17:https://nat-p12.tatrc.org/TFT_Test/TeamGoals]]>
+            </line>
+            <line>
+              <![CDATA[My Menu URL # 18:https://nat-p12.tatrc.org/TFT_Test/Blogs]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Asserting that the Reports menu size is 14.]]>
+            </line>
+            <line>
+              <![CDATA[Reports - Sub Menu size: 14]]>
+            </line>
+            <line>
+              <![CDATA[Reports URL # 1:https://nat-p12.tatrc.org/TFT_Test/UnitOverall]]>
+            </line>
+            <line>
+              <![CDATA[Reports URL # 2:https://nat-p12.tatrc.org/TFT_Test/TeamLoginActivities]]>
+            </line>
+            <line>
+              <![CDATA[Reports URL # 3:https://nat-p12.tatrc.org/TFT_Test/TeamOverallSleeps]]>
+            </line>
+            <line>
+              <![CDATA[Reports URL # 4:https://nat-p12.tatrc.org/TFT_Test/TeamActivities]]>
+            </line>
+            <line>
+              <![CDATA[Reports URL # 5:https://nat-p12.tatrc.org/TFT_Test/TeamStepGoals]]>
+            </line>
+            <line>
+              <![CDATA[Reports URL # 6:https://nat-p12.tatrc.org/TFT_Test/NutrientContents]]>
+            </line>
+            <line>
+              <![CDATA[Reports URL # 7:https://nat-p12.tatrc.org/TFT_Test/BodyMeasurementChanges]]>
+            </line>
+            <line>
+              <![CDATA[Reports URL # 8:https://nat-p12.tatrc.org/TFT_Test/MyActivities]]>
+            </line>
+            <line>
+              <![CDATA[Reports URL # 9:https://nat-p12.tatrc.org/TFT_Test/MySleeps]]>
+            </line>
+            <line>
+              <![CDATA[Reports URL # 10:https://nat-p12.tatrc.org/TFT_Test/GoalHistories]]>
+            </line>
+            <line>
+              <![CDATA[Reports URL # 11:https://nat-p12.tatrc.org/TFT_Test/GoalAchievements]]>
+            </line>
+            <line>
+              <![CDATA[Reports URL # 12:https://nat-p12.tatrc.org/TFT_Test/MyCalories]]>
+            </line>
+            <line>
+              <![CDATA[Reports URL # 13:https://nat-p12.tatrc.org/TFT_Test/MyBodyMeasurementChanges]]>
+            </line>
+            <line>
+              <![CDATA[Reports URL # 14:https://nat-p12.tatrc.org/TFT_Test/TeamCurrentSteps]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Asserting that the Admin menu size is 31.]]>
+            </line>
+            <line>
+              <![CDATA[Admin - Sub Menu size: 31]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 1:https://nat-p12.tatrc.org/TFT_Test/BranchComponents]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 2:https://nat-p12.tatrc.org/TFT_Test/BranchOfServices]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 3:https://nat-p12.tatrc.org/TFT_Test/BodyMeasurementTypes]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 4:https://nat-p12.tatrc.org/TFT_Test/Goals]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 5:https://nat-p12.tatrc.org/TFT_Test/NotificationTypes]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 6:https://nat-p12.tatrc.org/TFT_Test/PFTScores]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 7:https://nat-p12.tatrc.org/TFT_Test/Role]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 8:https://nat-p12.tatrc.org/TFT_Test/Units]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 9:https://nat-p12.tatrc.org/TFT_Test/DutyPositions]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 10:https://nat-p12.tatrc.org/TFT_Test/Ranks]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 11:https://nat-p12.tatrc.org/TFT_Test/ResetPasswordByAdmin/ResetPasswordByAdmin]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 12:https://nat-p12.tatrc.org/TFT_Test/BodyStatistics]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 13:https://nat-p12.tatrc.org/TFT_Test/Activities]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 14:https://nat-p12.tatrc.org/TFT_Test/ActivityCategories]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 15:https://nat-p12.tatrc.org/TFT_Test/ActivitySources]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 16:https://nat-p12.tatrc.org/TFT_Test/Intensities]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 17:https://nat-p12.tatrc.org/TFT_Test/Moods]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 18:https://nat-p12.tatrc.org/TFT_Test/Articles]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 19:https://nat-p12.tatrc.org/TFT_Test/ArticleTypes]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 20:https://nat-p12.tatrc.org/TFT_Test/Blogs/AdminIndex]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 21:https://nat-p12.tatrc.org/TFT_Test/Food]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 22:https://nat-p12.tatrc.org/TFT_Test/MealTypes]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 23:https://nat-p12.tatrc.org/TFT_Test/Locations]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 24:https://nat-p12.tatrc.org/TFT_Test/Routes]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 25:https://nat-p12.tatrc.org/TFT_Test/RouteLocations]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 26:https://nat-p12.tatrc.org/TFT_Test/Teams]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 27:https://nat-p12.tatrc.org/TFT_Test/TeamLeads]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 28:https://nat-p12.tatrc.org/TFT_Test/UserTeams]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 29:https://nat-p12.tatrc.org/TFT_Test/AppUsers]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 30:https://nat-p12.tatrc.org/TFT_Test/UserProvisionings]]>
+            </line>
+            <line>
+              <![CDATA[Admin URL # 31:https://nat-p12.tatrc.org/TFT_Test/UserProvisionings/UserListByStatus?Status=all]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Asserting that the Hello menu size is 6.]]>
+            </line>
+            <line>
+              <![CDATA[Hello - Sub Menu size: 6]]>
+            </line>
+            <line>
+              <![CDATA[Hello Menu URL # 1:https://nat-p12.tatrc.org/TFT_Test/UserProfiles/Edit]]>
+            </line>
+            <line>
+              <![CDATA[Hello Menu URL # 2:https://nat-p12.tatrc.org/TFT_Test/PRTStatus/Edit]]>
+            </line>
+            <line>
+              <![CDATA[Hello Menu URL # 3:https://nat-p12.tatrc.org/TFT_Test/Membership]]>
+            </line>
+            <line>
+              <![CDATA[Hello Menu URL # 4:https://nat-p12.tatrc.org/TFT_Test/UserProvisionings/CheckAndUpdateProvisioningStatus]]>
+            </line>
+            <line>
+              <![CDATA[Hello Menu URL # 5:https://nat-p12.tatrc.org/TFT_Test/Manage/ChangePassword]]>
+            </line>
+            <line>
+              <![CDATA[Hello Menu URL # 6:javascript:document.getElementById('logoutForm').submit()]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for page to load completely...]]>
+            </line>
+            <line>
+              <![CDATA[The page 'Team Fitness Tracker - Team Fitness Tracker' is fully loaded now.]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: clickActivity]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: clickAdmin]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for page to load completely...]]>
+            </line>
+            <line>
+              <![CDATA[The page 'Activities - Team Fitness Tracker' is fully loaded now.]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: readPageTitle]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[<b style='color:green;'>Validation:</b> Admin - Activities]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b style='color:green;'>Matches:</b> Activities]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Method: clickActivityCategories]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: clickAdmin]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for page to load completely...]]>
+            </line>
+            <line>
+              <![CDATA[The page 'Activity Categories - Team Fitness Tracker' is fully loaded now.]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: readPageTitle]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[<b style='color:green;'>Validation:</b> Admin - Activity Category]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b style='color:green;'>Matches:</b> Activity Category]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Method: clickActivitySources]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: clickAdmin]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for page to load completely...]]>
+            </line>
+            <line>
+              <![CDATA[The page 'Activity Sources - Team Fitness Tracker' is fully loaded now.]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: readPageTitle]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[<b style='color:green;'>Validation:</b> Admin - Activity Sources]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b style='color:green;'>Matches:</b> Activity Sources]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Method: clickIntensity]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: clickAdmin]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for page to load completely...]]>
+            </line>
+            <line>
+              <![CDATA[The page 'Intensity - Team Fitness Tracker' is fully loaded now.]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: readPageTitle]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[<b style='color:green;'>Validation:</b> Admin - Intensity]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b style='color:green;'>Matches:</b> Intensity]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Method: clickMood]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: clickAdmin]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for page to load completely...]]>
+            </line>
+            <line>
+              <![CDATA[The page 'Mood List - Team Fitness Tracker' is fully loaded now.]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: readPageTitle]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[<b style='color:red;'>Validation:</b> Admin - Mood]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b style='color:red;'>Expected:</b> Mood]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b style='color:red;'>Actual:</b> Mood List]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Method: clickArticlesSubMenu]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: clickAdmin]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for page to load completely...]]>
+            </line>
+            <line>
+              <![CDATA[The page 'Articles - Team Fitness Tracker' is fully loaded now.]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: readPageTitle]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[<b style='color:green;'>Validation:</b> Admin - Articles]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b style='color:green;'>Matches:</b> Articles]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Method: clickArticleTypesSubMenu]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Method: clickAdmin]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.Menus_Administrator@490ab905]" name="afterMethod" is-config="true" duration-ms="1052" started-at="2020-01-23T06:44:54Z" finished-at="2020-01-23T06:44:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCases.Menus_Administrator@490ab905]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-01-23T06:44:55Z" finished-at="2020-01-23T06:44:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Class: <u>utilities.AutomationHelper</u></b>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Method: finishTest]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testCases.Menus_Administrator -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

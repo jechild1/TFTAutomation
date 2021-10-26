@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Water Intake"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="150.146">
+  <properties />
+  
+  
+            <testcase name="addWaterIntakeForSingleUser" time="150.146" classname="testCases.AddWaterIntakeSingleUser" />
+      
+</testsuite>

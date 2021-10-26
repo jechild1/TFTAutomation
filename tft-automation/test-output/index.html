@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\jesse.childress\AppData\Local\Temp\6\testng-eclipse-1583495323\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.Menus_Administrator" hash-for-method="executeTest(jechild1)">executeTest(jechild1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.Menus_Administrator</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTest(jechild1)">
+                  </a> <!-- executeTest(jechild1) -->
+                  <span class="method-name">executeTest</span>
+                  <span class="parameters">(jechild1)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element &lt;a href=&quot;/TFT_Test/ArticleTypes&quot;&gt; could not be scrolled into view
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;TATRC-17323&apos;, ip: &apos;192.168.1.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2848, moz:profile: C:\Users\jesse.childress\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: be643713-9476-4366-8359-a02adc9862ed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at pageFactories.MenusPageFactory.clickArticleTypesSubMenu(MenusPageFactory.java:1218)
+	at testCases.Menus_Administrator.assertAdminMenuContent(Menus_Administrator.java:448)
+	at testCases.Menus_Administrator.executeTest(Menus_Administrator.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\jesse.childress\AppData\Local\Temp\6\testng-eclipse-1583495323\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.Menus_Administrator&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'executeTest')
+data.setCell(0, 2, 'testCases.Menus_Administrator')
+data.setCell(0, 3, 64266);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">executeTest(jechild1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><b>Class: <u>modularScripts.LoginMod</u></b></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">Method: execute</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Logging in with User Name: jechild1 who is of role type: Admin</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">Method: validateUSGModalHeader</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: readModalHeader</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">Method: validateUSGBodyText</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: readModalBodyText</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><b>Class: <u>pageFactories.WarningAndConsentBannerPageFactory</u></b></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">Method: clickOK</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">OK clicked on USG Warning and Consent Banner</span>
+                <span class="reporter-method-output">Clicking OK took PT0.844S seconds to complete</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Waiting for page to load completely...</span>
+                <span class="reporter-method-output">The page 'Team Fitness Tracker - Team Fitness Tracker' is fully loaded now.</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: clickLoginLink</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Waiting for page to load completely...</span>
+                <span class="reporter-method-output">The page 'Login - Team Fitness Tracker' is fully loaded now.</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Setting the User Name field</span>
+                <span class="reporter-method-output">User Name field set to jechild1</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Setting the Password field</span>
+                <span class="reporter-method-output">User Password field set to P@ssword1</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: readUserName</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">User Name field has value: jechild1</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Password Name Read</span>
+                <span class="reporter-method-output">Password field has value: P@ssword1</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Clicking Log in button</span>
+                <span class="reporter-method-output">Log in button clicked</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Asserting that the My Menu Size is 18.</span>
+                <span class="reporter-method-output">My Menu - Sub Menu size: 18</span>
+                <span class="reporter-method-output">My Menu URL # 1:https://nat-p12.tatrc.org/TFT_Test/UserActivities</span>
+                <span class="reporter-method-output">My Menu URL # 2:https://nat-p12.tatrc.org/TFT_Test/UserCalorieConsumptions</span>
+                <span class="reporter-method-output">My Menu URL # 3:https://nat-p12.tatrc.org/TFT_Test/UserSleep</span>
+                <span class="reporter-method-output">My Menu URL # 4:https://nat-p12.tatrc.org/TFT_Test/BodyMeasurements</span>
+                <span class="reporter-method-output">My Menu URL # 5:https://nat-p12.tatrc.org/TFT_Test/MyProfiles</span>
+                <span class="reporter-method-output">My Menu URL # 6:https://ods.od.nih.gov/api/</span>
+                <span class="reporter-method-output">My Menu URL # 7:https://examine.com/</span>
+                <span class="reporter-method-output">My Menu URL # 8:https://dsld.nlm.nih.gov/dsld/</span>
+                <span class="reporter-method-output">My Menu URL # 9:https://medlineplus.gov/druginfo/herb_All.html</span>
+                <span class="reporter-method-output">My Menu URL # 10:https://nat-p12.tatrc.org/TFT_Test/ACFT</span>
+                <span class="reporter-method-output">My Menu URL # 11:https://nat-p12.tatrc.org/TFT_Test/PFT</span>
+                <span class="reporter-method-output">My Menu URL # 12:https://nat-p12.tatrc.org/TFT_Test/Progress/Map?type=m</span>
+                <span class="reporter-method-output">My Menu URL # 13:https://nat-p12.tatrc.org/TFT_Test/Progress/Map?type=t</span>
+                <span class="reporter-method-output">My Menu URL # 14:https://nat-p12.tatrc.org/TFT_Test/UserBadges</span>
+                <span class="reporter-method-output">My Menu URL # 15:https://nat-p12.tatrc.org/TFT_Test/Challenges</span>
+                <span class="reporter-method-output">My Menu URL # 16:https://nat-p12.tatrc.org/TFT_Test/IndividualGoals</span>
+                <span class="reporter-method-output">My Menu URL # 17:https://nat-p12.tatrc.org/TFT_Test/TeamGoals</span>
+                <span class="reporter-method-output">My Menu URL # 18:https://nat-p12.tatrc.org/TFT_Test/Blogs</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Asserting that the Reports menu size is 14.</span>
+                <span class="reporter-method-output">Reports - Sub Menu size: 14</span>
+                <span class="reporter-method-output">Reports URL # 1:https://nat-p12.tatrc.org/TFT_Test/UnitOverall</span>
+                <span class="reporter-method-output">Reports URL # 2:https://nat-p12.tatrc.org/TFT_Test/TeamLoginActivities</span>
+                <span class="reporter-method-output">Reports URL # 3:https://nat-p12.tatrc.org/TFT_Test/TeamOverallSleeps</span>
+                <span class="reporter-method-output">Reports URL # 4:https://nat-p12.tatrc.org/TFT_Test/TeamActivities</span>
+                <span class="reporter-method-output">Reports URL # 5:https://nat-p12.tatrc.org/TFT_Test/TeamStepGoals</span>
+                <span class="reporter-method-output">Reports URL # 6:https://nat-p12.tatrc.org/TFT_Test/NutrientContents</span>
+                <span class="reporter-method-output">Reports URL # 7:https://nat-p12.tatrc.org/TFT_Test/BodyMeasurementChanges</span>
+                <span class="reporter-method-output">Reports URL # 8:https://nat-p12.tatrc.org/TFT_Test/MyActivities</span>
+                <span class="reporter-method-output">Reports URL # 9:https://nat-p12.tatrc.org/TFT_Test/MySleeps</span>
+                <span class="reporter-method-output">Reports URL # 10:https://nat-p12.tatrc.org/TFT_Test/GoalHistories</span>
+                <span class="reporter-method-output">Reports URL # 11:https://nat-p12.tatrc.org/TFT_Test/GoalAchievements</span>
+                <span class="reporter-method-output">Reports URL # 12:https://nat-p12.tatrc.org/TFT_Test/MyCalories</span>
+                <span class="reporter-method-output">Reports URL # 13:https://nat-p12.tatrc.org/TFT_Test/MyBodyMeasurementChanges</span>
+                <span class="reporter-method-output">Reports URL # 14:https://nat-p12.tatrc.org/TFT_Test/TeamCurrentSteps</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Asserting that the Admin menu size is 31.</span>
+                <span class="reporter-method-output">Admin - Sub Menu size: 31</span>
+                <span class="reporter-method-output">Admin URL # 1:https://nat-p12.tatrc.org/TFT_Test/BranchComponents</span>
+                <span class="reporter-method-output">Admin URL # 2:https://nat-p12.tatrc.org/TFT_Test/BranchOfServices</span>
+                <span class="reporter-method-output">Admin URL # 3:https://nat-p12.tatrc.org/TFT_Test/BodyMeasurementTypes</span>
+                <span class="reporter-method-output">Admin URL # 4:https://nat-p12.tatrc.org/TFT_Test/Goals</span>
+                <span class="reporter-method-output">Admin URL # 5:https://nat-p12.tatrc.org/TFT_Test/NotificationTypes</span>
+                <span class="reporter-method-output">Admin URL # 6:https://nat-p12.tatrc.org/TFT_Test/PFTScores</span>
+                <span class="reporter-method-output">Admin URL # 7:https://nat-p12.tatrc.org/TFT_Test/Role</span>
+                <span class="reporter-method-output">Admin URL # 8:https://nat-p12.tatrc.org/TFT_Test/Units</span>
+                <span class="reporter-method-output">Admin URL # 9:https://nat-p12.tatrc.org/TFT_Test/DutyPositions</span>
+                <span class="reporter-method-output">Admin URL # 10:https://nat-p12.tatrc.org/TFT_Test/Ranks</span>
+                <span class="reporter-method-output">Admin URL # 11:https://nat-p12.tatrc.org/TFT_Test/ResetPasswordByAdmin/ResetPasswordByAdmin</span>
+                <span class="reporter-method-output">Admin URL # 12:https://nat-p12.tatrc.org/TFT_Test/BodyStatistics</span>
+                <span class="reporter-method-output">Admin URL # 13:https://nat-p12.tatrc.org/TFT_Test/Activities</span>
+                <span class="reporter-method-output">Admin URL # 14:https://nat-p12.tatrc.org/TFT_Test/ActivityCategories</span>
+                <span class="reporter-method-output">Admin URL # 15:https://nat-p12.tatrc.org/TFT_Test/ActivitySources</span>
+                <span class="reporter-method-output">Admin URL # 16:https://nat-p12.tatrc.org/TFT_Test/Intensities</span>
+                <span class="reporter-method-output">Admin URL # 17:https://nat-p12.tatrc.org/TFT_Test/Moods</span>
+                <span class="reporter-method-output">Admin URL # 18:https://nat-p12.tatrc.org/TFT_Test/Articles</span>
+                <span class="reporter-method-output">Admin URL # 19:https://nat-p12.tatrc.org/TFT_Test/ArticleTypes</span>
+                <span class="reporter-method-output">Admin URL # 20:https://nat-p12.tatrc.org/TFT_Test/Blogs/AdminIndex</span>
+                <span class="reporter-method-output">Admin URL # 21:https://nat-p12.tatrc.org/TFT_Test/Food</span>
+                <span class="reporter-method-output">Admin URL # 22:https://nat-p12.tatrc.org/TFT_Test/MealTypes</span>
+                <span class="reporter-method-output">Admin URL # 23:https://nat-p12.tatrc.org/TFT_Test/Locations</span>
+                <span class="reporter-method-output">Admin URL # 24:https://nat-p12.tatrc.org/TFT_Test/Routes</span>
+                <span class="reporter-method-output">Admin URL # 25:https://nat-p12.tatrc.org/TFT_Test/RouteLocations</span>
+                <span class="reporter-method-output">Admin URL # 26:https://nat-p12.tatrc.org/TFT_Test/Teams</span>
+                <span class="reporter-method-output">Admin URL # 27:https://nat-p12.tatrc.org/TFT_Test/TeamLeads</span>
+                <span class="reporter-method-output">Admin URL # 28:https://nat-p12.tatrc.org/TFT_Test/UserTeams</span>
+                <span class="reporter-method-output">Admin URL # 29:https://nat-p12.tatrc.org/TFT_Test/AppUsers</span>
+                <span class="reporter-method-output">Admin URL # 30:https://nat-p12.tatrc.org/TFT_Test/UserProvisionings</span>
+                <span class="reporter-method-output">Admin URL # 31:https://nat-p12.tatrc.org/TFT_Test/UserProvisionings/UserListByStatus?Status=all</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Asserting that the Hello menu size is 6.</span>
+                <span class="reporter-method-output">Hello - Sub Menu size: 6</span>
+                <span class="reporter-method-output">Hello Menu URL # 1:https://nat-p12.tatrc.org/TFT_Test/UserProfiles/Edit</span>
+                <span class="reporter-method-output">Hello Menu URL # 2:https://nat-p12.tatrc.org/TFT_Test/PRTStatus/Edit</span>
+                <span class="reporter-method-output">Hello Menu URL # 3:https://nat-p12.tatrc.org/TFT_Test/Membership</span>
+                <span class="reporter-method-output">Hello Menu URL # 4:https://nat-p12.tatrc.org/TFT_Test/UserProvisionings/CheckAndUpdateProvisioningStatus</span>
+                <span class="reporter-method-output">Hello Menu URL # 5:https://nat-p12.tatrc.org/TFT_Test/Manage/ChangePassword</span>
+                <span class="reporter-method-output">Hello Menu URL # 6:javascript:document.getElementById('logoutForm').submit()</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Waiting for page to load completely...</span>
+                <span class="reporter-method-output">The page 'Team Fitness Tracker - Team Fitness Tracker' is fully loaded now.</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: clickActivity</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: clickAdmin</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Waiting for page to load completely...</span>
+                <span class="reporter-method-output">The page 'Activities - Team Fitness Tracker' is fully loaded now.</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: readPageTitle</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output"><b style='color:green;'>Validation:</b> Admin - Activities</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><b style='color:green;'>Matches:</b> Activities</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">Method: clickActivityCategories</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: clickAdmin</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Waiting for page to load completely...</span>
+                <span class="reporter-method-output">The page 'Activity Categories - Team Fitness Tracker' is fully loaded now.</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: readPageTitle</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output"><b style='color:green;'>Validation:</b> Admin - Activity Category</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><b style='color:green;'>Matches:</b> Activity Category</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">Method: clickActivitySources</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: clickAdmin</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Waiting for page to load completely...</span>
+                <span class="reporter-method-output">The page 'Activity Sources - Team Fitness Tracker' is fully loaded now.</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: readPageTitle</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output"><b style='color:green;'>Validation:</b> Admin - Activity Sources</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><b style='color:green;'>Matches:</b> Activity Sources</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">Method: clickIntensity</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: clickAdmin</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Waiting for page to load completely...</span>
+                <span class="reporter-method-output">The page 'Intensity - Team Fitness Tracker' is fully loaded now.</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: readPageTitle</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output"><b style='color:green;'>Validation:</b> Admin - Intensity</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><b style='color:green;'>Matches:</b> Intensity</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">Method: clickMood</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: clickAdmin</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Waiting for page to load completely...</span>
+                <span class="reporter-method-output">The page 'Mood List - Team Fitness Tracker' is fully loaded now.</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: readPageTitle</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output"><b style='color:red;'>Validation:</b> Admin - Mood</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><b style='color:red;'>Expected:</b> Mood</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><b style='color:red;'>Actual:</b> Mood List</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">Method: clickArticlesSubMenu</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: clickAdmin</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Waiting for page to load completely...</span>
+                <span class="reporter-method-output">The page 'Articles - Team Fitness Tracker' is fully loaded now.</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: readPageTitle</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output"><b style='color:green;'>Validation:</b> Admin - Articles</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><b style='color:green;'>Matches:</b> Articles</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">Method: clickArticleTypesSubMenu</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Method: clickAdmin</span>
+                <span class="reporter-method-output"></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Menus_Administrator</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTest(jechild1)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">64266 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">65318 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

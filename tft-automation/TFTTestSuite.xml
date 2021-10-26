@@ -1,0 +1,94 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Team Fitness Tracker Automation Tests"
+	parallel="classes" thread-count="1" verbose="1"
+	group-by-instances="true">
+	<parameter name="selectedBrowser" value="firefox" />
+	<listeners>
+		<listener class-name="configuration.EnhancedHTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="Menu Test for Admin" preserve-order="true"
+		enabled="true" group-by-instances="true">
+		<classes>
+			<class name="testCases.ExerciseAllMenusAdmin" />
+		</classes>
+	</test>
+
+	<test name="Menu Test for Team Lead" preserve-order="true"
+		enabled="true" group-by-instances="true">
+		<classes>
+			<class name="testCases.ExerciseAllMenusTeamLead" />
+		</classes>
+	</test>
+
+
+	<test name="Menu Test for Team Member" preserve-order="true"
+		enabled="true" group-by-instances="true">
+		<classes>
+			<class name="testCases.ExerciseAllMenusTeamMember" />
+		</classes>
+	</test>
+
+	<test name="Calorie Intake" preserve-order="true" enabled="true"
+		group-by-instances="true">
+		<classes>
+			<class name="testCases.AddCalorieIntake" />
+			<class name="testCases.AddCalorieIntakeForTeam" />
+		</classes>
+	</test>
+
+	<test name="Create New Activity" preserve-order="true"
+		enabled="true" group-by-instances="true">
+		<classes>
+			<class name="testCases.CreateNewActivity" />
+			<class name="testCases.CreateNewActivityForTeam" />
+		</classes>
+	</test>
+
+	<test name="Device Registration" preserve-order="true"
+		enabled="true" group-by-instances="true">
+		<classes>
+			<class name="testCases.DeviceRegistration" />
+		</classes>
+	</test>
+
+	<test name="ReadAllNotifications" preserve-order="true"
+		enabled="true" group-by-instances="true">
+		<classes>
+			<class name="testCases.ReadAllNotifications" />
+		</classes>
+	</test>
+
+	<test name="SendBroadcastMessage" preserve-order="true"
+		enabled="true" group-by-instances="true">
+		<classes>
+			<class name="testCases.BroadcastMessage" />
+		</classes>
+	</test>
+
+	<test name="Miscellaneous Tests" preserve-order="true"
+		enabled="true" group-by-instances="true">
+		<classes>
+			<class name="testCases.ChangePassword" />
+			<class name="testCases.TeamLogin" />
+		</classes>
+	</test>
+
+	<test name="Sleep Entries" preserve-order="true" enabled="true"
+		group-by-instances="true">
+		<classes>
+			<class name="testCases.AddSleepEntry" />
+		</classes>
+	</test>
+
+	<test name="Water Intake" preserve-order="true" enabled="true"
+		group-by-instances="true">
+		<classes>
+			<class name="testCases.AddWaterIntakeSingleUser" />
+		</classes>
+	</test>
+
+
+</suite>
+

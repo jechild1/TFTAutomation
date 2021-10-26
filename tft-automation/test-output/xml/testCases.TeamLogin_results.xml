@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Miscellaneous Tests"
+           tests="8"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="146.529">
+  <properties />
+            <testcase name="loginUser" time="17.872" classname="testCases.TeamLogin">
+                <failure type="java.lang.AssertionError"
+                  message="The following asserts failed:
+	Page Title assertion:  expected [Team Fitness Tracker - Team Fitness Tracker] but found [Device Registration - Team Fitness Tracker]"
+              >
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+	Page Title assertion:  expected [Team Fitness Tracker - Team Fitness Tracker] but found [Device Registration - Team Fitness Tracker]
+  org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+  testCases.TeamLogin.loginUser(TeamLogin.java:42)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="loginUser" time="16.128" classname="testCases.TeamLogin">
+                <failure type="java.lang.AssertionError"
+                  message="The following asserts failed:
+	Page Title assertion:  expected [Team Fitness Tracker - Team Fitness Tracker] but found [Device Registration - Team Fitness Tracker]"
+              >
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+	Page Title assertion:  expected [Team Fitness Tracker - Team Fitness Tracker] but found [Device Registration - Team Fitness Tracker]
+  org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+  testCases.TeamLogin.loginUser(TeamLogin.java:42)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="loginUser" time="17.972" classname="testCases.TeamLogin" />
+                <testcase name="loginUser" time="19.110" classname="testCases.TeamLogin" />
+                <testcase name="loginUser" time="18.515" classname="testCases.TeamLogin" />
+                <testcase name="loginUser" time="18.095" classname="testCases.TeamLogin" />
+                <testcase name="loginUser" time="20.689" classname="testCases.TeamLogin" />
+                <testcase name="loginUser" time="18.148" classname="testCases.TeamLogin" />
+      
+</testsuite>

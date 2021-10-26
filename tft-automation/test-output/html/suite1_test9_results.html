@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Miscellaneous Tests</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <link href="custom.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Miscellaneous Tests</h1>
+<p>
+  Test duration: 186.975s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testCases.ChangePassword</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  performPasswordChangeTests
+      </td>
+  <td class="duration">
+    31.120s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Method: loginAsExistingUser<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LoginAsExistingUserMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: loginAsUser<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.WarningAndConsentBannerMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateAndCloseUSGWarningsAndConsentPopup<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGModalHeader<br />
+                                <br />
+                                Method: readModalHeader<br />
+                                <br />
+                                Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGBodyText<br />
+                                <br />
+                                Method: readModalBodyText<br />
+                                <br />
+                                Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: clickOK<br />
+                                <br />
+                                OK clicked on USG Warning and Consent Banner<br />
+                                Clicking OK took PT0.846S seconds to complete<br />
+                                <br />
+                                Method: clickLoginLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Login - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                                Starting page title check, expecting page: Login - Team Fitness Tracker<br />
+                                Page title found.<br />
+                                <br />
+                                Setting the User Name field<br />
+                                User Name field set to TomBrady715<br />
+                                <br />
+                                Setting the Password field<br />
+                                User Password field set to P@ssword1<br />
+                                <br />
+                                Method: readUserName<br />
+                                <br />
+                                User Name field has value: TomBrady715<br />
+                                <br />
+                                &lt;b style=&apos;color:green;&apos;&gt;Validation:&lt;/b&gt; User Name Field:<br />
+                                &lt;br&gt;<br />
+                                &lt;b style=&apos;color:green;&apos;&gt;Matches:&lt;/b&gt; TomBrady715<br />
+                                &lt;br&gt;<br />
+                                Password Name Read<br />
+                                Password field has value: P@ssword1<br />
+                                <br />
+                                &lt;b style=&apos;color:green;&apos;&gt;Validation:&lt;/b&gt; Password Field:<br />
+                                &lt;br&gt;<br />
+                                &lt;b style=&apos;color:green;&apos;&gt;Matches:&lt;/b&gt; P@ssword1<br />
+                                &lt;br&gt;<br />
+                                Clicking Log in button<br />
+                                Log in button clicked<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Login - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                                Reading Greeting Name<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(text(), &apos;Hello&apos;)]<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;<br/>
+System info: host: &apos;TATRC-17323&apos;, ip: &apos;172.22.2.97&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191009172106, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10588, moz:profile: C:\Users\jesse.childress\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: 34b3abb7-fa85-4fb5-b308-4c27236ccb71<br/>
+*** Element info: {Using=xpath, value=//a[contains(text(), &apos;Hello&apos;)]}</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:361)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)<br />
+              org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)<br />
+              com.sun.proxy.$Proxy10.getAttribute(Unknown Source)<br />
+              pageFactories.MenusPageFactory.readGreetingName(MenusPageFactory.java:1724)<br />
+              testCases.ChangePassword.loginAsExistingUser(ChangePassword.java:82)<br />
+              testCases.ChangePassword.performPasswordChangeTests(ChangePassword.java:50)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">testCases.TeamLogin</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  loginUser
+      </td>
+  <td class="duration">
+    16.128s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"JamesMadison", "P@ssword1"</span><br />
+    
+            <div class="testOutput">
+                        Method: login<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.WarningAndConsentBannerMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateAndCloseUSGWarningsAndConsentPopup<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGModalHeader<br />
+                                <br />
+                                Method: readModalHeader<br />
+                                <br />
+                                Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGBodyText<br />
+                                <br />
+                                Method: readModalBodyText<br />
+                                <br />
+                                Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: clickOK<br />
+                                <br />
+                                OK clicked on USG Warning and Consent Banner<br />
+                                Clicking OK took PT0.869S seconds to complete<br />
+                                <br />
+                                Method: clickLoginLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Login - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LoginMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: login<br />
+                                <br />
+                                Logging in with User Name: JamesMadison and Password: P@ssword1<br />
+                                Setting the User Name field<br />
+                                User Name field set to JamesMadison<br />
+                                <br />
+                                Setting the Password field<br />
+                                User Password field set to P@ssword1<br />
+                                <br />
+                                Method: readUserName<br />
+                                <br />
+                                User Name field has value: JamesMadison<br />
+                                <br />
+                                Password Name Read<br />
+                                Password field has value: P@ssword1<br />
+                                <br />
+                                Clicking Log in button<br />
+                                Log in button clicked<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;testCases.TeamLogin&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: loginUser<br />
+                                <br />
+                                &lt;b style=&apos;color:red;&apos;&gt;Validation:&lt;/b&gt; Page Title assertion: <br />
+                                &lt;br&gt;<br />
+                                &lt;b style=&apos;color:red;&apos;&gt;Expected:&lt;/b&gt; Team Fitness Tracker - Team Fitness Tracker<br />
+                                &lt;br&gt;<br />
+                                &lt;b style=&apos;color:red;&apos;&gt;Actual:&lt;/b&gt; Device Registration - Team Fitness Tracker<br />
+                                &lt;br&gt;<br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LogoffMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: logoff<br />
+                                <br />
+                                Method: clickLogOffLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Team Fitness Tracker - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: The following asserts failed:<br/>
+	Page Title assertion:&nbsp; expected [Team Fitness Tracker - Team Fitness Tracker] but found [Device Registration - Team Fitness Tracker]</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)<br />
+              testCases.TeamLogin.loginUser(TeamLogin.java:42)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  loginUser
+      </td>
+  <td class="duration">
+    17.872s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"GeorgeWashington", "P@ssword1"</span><br />
+    
+            <div class="testOutput">
+                        Method: login<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.WarningAndConsentBannerMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateAndCloseUSGWarningsAndConsentPopup<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGModalHeader<br />
+                                <br />
+                                Method: readModalHeader<br />
+                                <br />
+                                Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGBodyText<br />
+                                <br />
+                                Method: readModalBodyText<br />
+                                <br />
+                                Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: clickOK<br />
+                                <br />
+                                OK clicked on USG Warning and Consent Banner<br />
+                                Clicking OK took PT0.829S seconds to complete<br />
+                                <br />
+                                Method: clickLoginLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Login - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LoginMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: login<br />
+                                <br />
+                                Logging in with User Name: GeorgeWashington and Password: P@ssword1<br />
+                                Setting the User Name field<br />
+                                User Name field set to GeorgeWashington<br />
+                                <br />
+                                Setting the Password field<br />
+                                User Password field set to P@ssword1<br />
+                                <br />
+                                Method: readUserName<br />
+                                <br />
+                                User Name field has value: GeorgeWashington<br />
+                                <br />
+                                Password Name Read<br />
+                                Password field has value: P@ssword1<br />
+                                <br />
+                                Clicking Log in button<br />
+                                Log in button clicked<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;testCases.TeamLogin&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: loginUser<br />
+                                <br />
+                                &lt;b style=&apos;color:red;&apos;&gt;Validation:&lt;/b&gt; Page Title assertion: <br />
+                                &lt;br&gt;<br />
+                                &lt;b style=&apos;color:red;&apos;&gt;Expected:&lt;/b&gt; Team Fitness Tracker - Team Fitness Tracker<br />
+                                &lt;br&gt;<br />
+                                &lt;b style=&apos;color:red;&apos;&gt;Actual:&lt;/b&gt; Device Registration - Team Fitness Tracker<br />
+                                &lt;br&gt;<br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LogoffMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: logoff<br />
+                                <br />
+                                Method: clickLogOffLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Team Fitness Tracker - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: The following asserts failed:<br/>
+	Page Title assertion:&nbsp; expected [Team Fitness Tracker - Team Fitness Tracker] but found [Device Registration - Team Fitness Tracker]</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)<br />
+              testCases.TeamLogin.loginUser(TeamLogin.java:42)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testCases.TeamLogin</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  loginUser
+      </td>
+  <td class="duration">
+    18.515s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"jechild1", "P@ssword1"</span><br />
+    
+            <div class="testOutput">
+                        Method: login<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.WarningAndConsentBannerMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateAndCloseUSGWarningsAndConsentPopup<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGModalHeader<br />
+                                <br />
+                                Method: readModalHeader<br />
+                                <br />
+                                Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGBodyText<br />
+                                <br />
+                                Method: readModalBodyText<br />
+                                <br />
+                                Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: clickOK<br />
+                                <br />
+                                OK clicked on USG Warning and Consent Banner<br />
+                                Clicking OK took PT0.835S seconds to complete<br />
+                                <br />
+                                Method: clickLoginLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Login - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LoginMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: login<br />
+                                <br />
+                                Logging in with User Name: jechild1 and Password: P@ssword1<br />
+                                Setting the User Name field<br />
+                                User Name field set to jechild1<br />
+                                <br />
+                                Setting the Password field<br />
+                                User Password field set to P@ssword1<br />
+                                <br />
+                                Method: readUserName<br />
+                                <br />
+                                User Name field has value: jechild1<br />
+                                <br />
+                                Password Name Read<br />
+                                Password field has value: P@ssword1<br />
+                                <br />
+                                Clicking Log in button<br />
+                                Log in button clicked<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;testCases.TeamLogin&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: loginUser<br />
+                                <br />
+                                &lt;b style=&apos;color:green;&apos;&gt;Validation:&lt;/b&gt; Page Title assertion: <br />
+                                &lt;br&gt;<br />
+                                &lt;b style=&apos;color:green;&apos;&gt;Matches:&lt;/b&gt; Team Fitness Tracker - Team Fitness Tracker<br />
+                                &lt;br&gt;<br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LogoffMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: logoff<br />
+                                <br />
+                                Method: clickLogOffLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Team Fitness Tracker - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  loginUser
+      </td>
+  <td class="duration">
+    20.689s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"GeorgeBush", "P@ssword1"</span><br />
+    
+            <div class="testOutput">
+                        Method: login<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.WarningAndConsentBannerMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateAndCloseUSGWarningsAndConsentPopup<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGModalHeader<br />
+                                <br />
+                                Method: readModalHeader<br />
+                                <br />
+                                Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGBodyText<br />
+                                <br />
+                                Method: readModalBodyText<br />
+                                <br />
+                                Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: clickOK<br />
+                                <br />
+                                OK clicked on USG Warning and Consent Banner<br />
+                                Clicking OK took PT0.808S seconds to complete<br />
+                                <br />
+                                Method: clickLoginLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Login - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LoginMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: login<br />
+                                <br />
+                                Logging in with User Name: GeorgeBush and Password: P@ssword1<br />
+                                Setting the User Name field<br />
+                                User Name field set to GeorgeBush<br />
+                                <br />
+                                Setting the Password field<br />
+                                User Password field set to P@ssword1<br />
+                                <br />
+                                Method: readUserName<br />
+                                <br />
+                                User Name field has value: GeorgeBush<br />
+                                <br />
+                                Password Name Read<br />
+                                Password field has value: P@ssword1<br />
+                                <br />
+                                Clicking Log in button<br />
+                                Log in button clicked<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;testCases.TeamLogin&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: loginUser<br />
+                                <br />
+                                &lt;b style=&apos;color:green;&apos;&gt;Validation:&lt;/b&gt; Page Title assertion: <br />
+                                &lt;br&gt;<br />
+                                &lt;b style=&apos;color:green;&apos;&gt;Matches:&lt;/b&gt; Team Fitness Tracker - Team Fitness Tracker<br />
+                                &lt;br&gt;<br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LogoffMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: logoff<br />
+                                <br />
+                                Method: clickLogOffLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Team Fitness Tracker - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  loginUser
+      </td>
+  <td class="duration">
+    18.148s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"ThomasJefferson", "P@ssword1"</span><br />
+    
+            <div class="testOutput">
+                        Method: login<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.WarningAndConsentBannerMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateAndCloseUSGWarningsAndConsentPopup<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGModalHeader<br />
+                                <br />
+                                Method: readModalHeader<br />
+                                <br />
+                                Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGBodyText<br />
+                                <br />
+                                Method: readModalBodyText<br />
+                                <br />
+                                Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: clickOK<br />
+                                <br />
+                                OK clicked on USG Warning and Consent Banner<br />
+                                Clicking OK took PT0.86S seconds to complete<br />
+                                <br />
+                                Method: clickLoginLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Login - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LoginMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: login<br />
+                                <br />
+                                Logging in with User Name: ThomasJefferson and Password: P@ssword1<br />
+                                Setting the User Name field<br />
+                                User Name field set to ThomasJefferson<br />
+                                <br />
+                                Setting the Password field<br />
+                                User Password field set to P@ssword1<br />
+                                <br />
+                                Method: readUserName<br />
+                                <br />
+                                User Name field has value: ThomasJefferson<br />
+                                <br />
+                                Password Name Read<br />
+                                Password field has value: P@ssword1<br />
+                                <br />
+                                Clicking Log in button<br />
+                                Log in button clicked<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;testCases.TeamLogin&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: loginUser<br />
+                                <br />
+                                &lt;b style=&apos;color:green;&apos;&gt;Validation:&lt;/b&gt; Page Title assertion: <br />
+                                &lt;br&gt;<br />
+                                &lt;b style=&apos;color:green;&apos;&gt;Matches:&lt;/b&gt; Team Fitness Tracker - Team Fitness Tracker<br />
+                                &lt;br&gt;<br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LogoffMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: logoff<br />
+                                <br />
+                                Method: clickLogOffLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Team Fitness Tracker - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  loginUser
+      </td>
+  <td class="duration">
+    18.095s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"BillClinton", "P@ssword1"</span><br />
+    
+            <div class="testOutput">
+                        Method: login<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.WarningAndConsentBannerMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateAndCloseUSGWarningsAndConsentPopup<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGModalHeader<br />
+                                <br />
+                                Method: readModalHeader<br />
+                                <br />
+                                Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGBodyText<br />
+                                <br />
+                                Method: readModalBodyText<br />
+                                <br />
+                                Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: clickOK<br />
+                                <br />
+                                OK clicked on USG Warning and Consent Banner<br />
+                                Clicking OK took PT0.894S seconds to complete<br />
+                                <br />
+                                Method: clickLoginLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Login - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LoginMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: login<br />
+                                <br />
+                                Logging in with User Name: BillClinton and Password: P@ssword1<br />
+                                Setting the User Name field<br />
+                                User Name field set to BillClinton<br />
+                                <br />
+                                Setting the Password field<br />
+                                User Password field set to P@ssword1<br />
+                                <br />
+                                Method: readUserName<br />
+                                <br />
+                                User Name field has value: BillClinton<br />
+                                <br />
+                                Password Name Read<br />
+                                Password field has value: P@ssword1<br />
+                                <br />
+                                Clicking Log in button<br />
+                                Log in button clicked<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;testCases.TeamLogin&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: loginUser<br />
+                                <br />
+                                &lt;b style=&apos;color:green;&apos;&gt;Validation:&lt;/b&gt; Page Title assertion: <br />
+                                &lt;br&gt;<br />
+                                &lt;b style=&apos;color:green;&apos;&gt;Matches:&lt;/b&gt; Team Fitness Tracker - Team Fitness Tracker<br />
+                                &lt;br&gt;<br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LogoffMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: logoff<br />
+                                <br />
+                                Method: clickLogOffLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Team Fitness Tracker - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  loginUser
+      </td>
+  <td class="duration">
+    19.110s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"MartinVanBuren", "P@ssword1"</span><br />
+    
+            <div class="testOutput">
+                        Method: login<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.WarningAndConsentBannerMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateAndCloseUSGWarningsAndConsentPopup<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGModalHeader<br />
+                                <br />
+                                Method: readModalHeader<br />
+                                <br />
+                                Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGBodyText<br />
+                                <br />
+                                Method: readModalBodyText<br />
+                                <br />
+                                Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: clickOK<br />
+                                <br />
+                                OK clicked on USG Warning and Consent Banner<br />
+                                Clicking OK took PT0.839S seconds to complete<br />
+                                <br />
+                                Method: clickLoginLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Login - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LoginMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: login<br />
+                                <br />
+                                Logging in with User Name: MartinVanBuren and Password: P@ssword1<br />
+                                Setting the User Name field<br />
+                                User Name field set to MartinVanBuren<br />
+                                <br />
+                                Setting the Password field<br />
+                                User Password field set to P@ssword1<br />
+                                <br />
+                                Method: readUserName<br />
+                                <br />
+                                User Name field has value: MartinVanBuren<br />
+                                <br />
+                                Password Name Read<br />
+                                Password field has value: P@ssword1<br />
+                                <br />
+                                Clicking Log in button<br />
+                                Log in button clicked<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;testCases.TeamLogin&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: loginUser<br />
+                                <br />
+                                &lt;b style=&apos;color:green;&apos;&gt;Validation:&lt;/b&gt; Page Title assertion: <br />
+                                &lt;br&gt;<br />
+                                &lt;b style=&apos;color:green;&apos;&gt;Matches:&lt;/b&gt; Team Fitness Tracker - Team Fitness Tracker<br />
+                                &lt;br&gt;<br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LogoffMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: logoff<br />
+                                <br />
+                                Method: clickLogOffLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Team Fitness Tracker - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  loginUser
+      </td>
+  <td class="duration">
+    17.972s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"JohnAdams", "P@ssword1"</span><br />
+    
+            <div class="testOutput">
+                        Method: login<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.WarningAndConsentBannerMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateAndCloseUSGWarningsAndConsentPopup<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGModalHeader<br />
+                                <br />
+                                Method: readModalHeader<br />
+                                <br />
+                                Modal Header Text = DOD STANDARD WARNING AND NOTICE BANNER<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: validateUSGBodyText<br />
+                                <br />
+                                Method: readModalBodyText<br />
+                                <br />
+                                Modal Body Text = You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions: The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, Communications Security (COMSEC) monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations. The USG may inspect and seize data stored on this IS at anytime. Communications using, or data stored on, this IS are not private; are subject to routine monitoring, interception, and search; and may be disclosed or used for any USG authorized purpose. This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy. Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy and their assistants. Such communications and work product are private and confidential. See User Agreement for details.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;pageFactories.WarningAndConsentBannerPageFactory&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: clickOK<br />
+                                <br />
+                                OK clicked on USG Warning and Consent Banner<br />
+                                Clicking OK took PT0.875S seconds to complete<br />
+                                <br />
+                                Method: clickLoginLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Login - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LoginMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: login<br />
+                                <br />
+                                Logging in with User Name: JohnAdams and Password: P@ssword1<br />
+                                Setting the User Name field<br />
+                                User Name field set to JohnAdams<br />
+                                <br />
+                                Setting the Password field<br />
+                                User Password field set to P@ssword1<br />
+                                <br />
+                                Method: readUserName<br />
+                                <br />
+                                User Name field has value: JohnAdams<br />
+                                <br />
+                                Password Name Read<br />
+                                Password field has value: P@ssword1<br />
+                                <br />
+                                Clicking Log in button<br />
+                                Log in button clicked<br />
+                                <br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;testCases.TeamLogin&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: loginUser<br />
+                                <br />
+                                &lt;b style=&apos;color:green;&apos;&gt;Validation:&lt;/b&gt; Page Title assertion: <br />
+                                &lt;br&gt;<br />
+                                &lt;b style=&apos;color:green;&apos;&gt;Matches:&lt;/b&gt; Team Fitness Tracker - Team Fitness Tracker<br />
+                                &lt;br&gt;<br />
+                                &lt;br&gt;<br />
+                                &lt;b&gt;Class: &lt;u&gt;modularScripts.LogoffMod&lt;/u&gt;&lt;/b&gt;<br />
+                                &lt;br&gt;<br />
+                                Method: logoff<br />
+                                <br />
+                                Method: clickLogOffLink<br />
+                                <br />
+                                Waiting for page to load completely...<br />
+                                The page &apos;Team Fitness Tracker - Team Fitness Tracker&apos; is fully loaded now.<br />
+                                <br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

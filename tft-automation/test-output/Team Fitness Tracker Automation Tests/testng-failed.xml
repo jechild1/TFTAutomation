@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Team Fitness Tracker Automation Tests]" parallel="classes">
+  <parameter name="selectedBrowser" value="firefox"/>
+  <listeners>
+    <listener class-name="configuration.EnhancedHTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Menu Test for Admin(failed)" parallel="classes">
+    <classes>
+      <class name="testCases.ExerciseAllMenusAdmin">
+        <methods>
+          <include name="exerciseMyMenuAdmin"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testCases.ExerciseAllMenusAdmin -->
+    </classes>
+  </test> <!-- Menu Test for Admin(failed) -->
+  <test name="Menu Test for Team Lead(failed)" parallel="classes">
+    <classes>
+      <class name="testCases.ExerciseAllMenusTeamLead">
+        <methods>
+          <include name="login"/>
+          <include name="afterClass"/>
+          <include name="exerciseMyMenuTeamLead"/>
+        </methods>
+      </class> <!-- testCases.ExerciseAllMenusTeamLead -->
+    </classes>
+  </test> <!-- Menu Test for Team Lead(failed) -->
+  <test name="Menu Test for Team Member(failed)" parallel="classes">
+    <classes>
+      <class name="testCases.ExerciseAllMenusTeamMember">
+        <methods>
+          <include name="exerciseMyMenuTeamMember"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testCases.ExerciseAllMenusTeamMember -->
+    </classes>
+  </test> <!-- Menu Test for Team Member(failed) -->
+  <test name="Create New Activity(failed)" parallel="classes">
+    <classes>
+      <class name="testCases.CreateNewActivityForTeam">
+        <methods>
+          <include name="addNewActivityForCurrentDate" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.CreateNewActivityForTeam -->
+    </classes>
+  </test> <!-- Create New Activity(failed) -->
+  <test name="Device Registration(failed)" parallel="classes">
+    <classes>
+      <class name="testCases.DeviceRegistration">
+        <methods>
+          <include name="performRegistration"/>
+          <include name="login"/>
+          <include name="performDeregistration"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testCases.DeviceRegistration -->
+    </classes>
+  </test> <!-- Device Registration(failed) -->
+  <test name="Miscellaneous Tests(failed)" parallel="classes">
+    <classes>
+      <class name="testCases.ChangePassword">
+        <methods>
+          <include name="performPasswordChangeTests"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testCases.ChangePassword -->
+      <class name="testCases.TeamLogin">
+        <methods>
+          <include name="loginUser" invocation-numbers="0 3"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.TeamLogin -->
+    </classes>
+  </test> <!-- Miscellaneous Tests(failed) -->
+  <test name="Sleep Entries(failed)" parallel="classes">
+    <classes>
+      <class name="testCases.AddSleepEntry">
+        <methods>
+          <include name="afterClass"/>
+          <include name="addSleepEntry" invocation-numbers="7"/>
+          <include name="logoff"/>
+        </methods>
+      </class> <!-- testCases.AddSleepEntry -->
+    </classes>
+  </test> <!-- Sleep Entries(failed) -->
+</suite> <!-- Failed suite [Team Fitness Tracker Automation Tests] -->

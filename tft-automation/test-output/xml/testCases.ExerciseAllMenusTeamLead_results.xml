@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Menu Test for Team Lead"
+           tests="4"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="60.119">
+  <properties />
+            <testcase name="exerciseMyMenuTeamLead" time="19.850" classname="testCases.ExerciseAllMenusTeamLead">
+                <failure type="java.lang.AssertionError"
+                  message="Menu Item List Count:  expected [13] but found [14]"
+              >
+<![CDATA[java.lang.AssertionError: Menu Item List Count:  expected [13] but found [14]
+  org.testng.Assert.fail(Assert.java:93)
+  org.testng.Assert.failNotEquals(Assert.java:512)
+  org.testng.Assert.assertEqualsImpl(Assert.java:134)
+  org.testng.Assert.assertEquals(Assert.java:115)
+  org.testng.Assert.assertEquals(Assert.java:388)
+  testCases.ExerciseAllMenusTeamLead.exerciseMyMenuTeamLead(ExerciseAllMenusTeamLead.java:147)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="exerciseHelloUser" time="11.499" classname="testCases.ExerciseAllMenusTeamLead" />
+                <testcase name="exerciseReportsTeamLead" time="15.492" classname="testCases.ExerciseAllMenusTeamLead" />
+                <testcase name="login" time="13.278" classname="testCases.ExerciseAllMenusTeamLead" />
+      
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Calorie Intake"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1965.489">
+  <properties />
+  
+  
+            <testcase name="addCalorieIntakeForTeam" time="222.118" classname="testCases.AddCalorieIntakeForTeam" />
+                <testcase name="addCalorieIntakeForTeam" time="174.525" classname="testCases.AddCalorieIntakeForTeam" />
+                <testcase name="addCalorieIntakeForTeam" time="205.190" classname="testCases.AddCalorieIntakeForTeam" />
+                <testcase name="addCalorieIntakeForTeam" time="238.445" classname="testCases.AddCalorieIntakeForTeam" />
+                <testcase name="addCalorieIntakeForTeam" time="233.302" classname="testCases.AddCalorieIntakeForTeam" />
+                <testcase name="addCalorieIntakeForTeam" time="245.592" classname="testCases.AddCalorieIntakeForTeam" />
+                <testcase name="addCalorieIntakeForTeam" time="177.710" classname="testCases.AddCalorieIntakeForTeam" />
+                <testcase name="addCalorieIntakeForTeam" time="236.445" classname="testCases.AddCalorieIntakeForTeam" />
+                <testcase name="addCalorieIntakeForTeam" time="232.162" classname="testCases.AddCalorieIntakeForTeam" />
+      
+</testsuite>
