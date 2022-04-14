@@ -618,7 +618,7 @@ public class CreateUserProfilePageFactory extends TestConfig {
 		termsAndConditionsLink.click();
 		Reporter.log("Terms and Conditions Link clicked", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 	
 	/**
@@ -655,7 +655,7 @@ public class CreateUserProfilePageFactory extends TestConfig {
 		termsAndConditionsCloseButton.click();
 		Reporter.log("Terms & Conditions Modal Close button clicked", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 	// /**
 	// * Returns the value of the Email radio button.
@@ -777,7 +777,7 @@ public class CreateUserProfilePageFactory extends TestConfig {
 		saveProfile.click();
 		Reporter.log("Save Profile button clicked", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 
 	/**

@@ -43,7 +43,7 @@ public class UnitsPageFactory extends IndexBase {
 		addNewUnitLink.click();
 		Reporter.log("Add New Unit link clicked", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 	
 	/**

@@ -242,7 +242,7 @@ public class RegisterPageFactory extends TestConfig{
 		registerButton.click();
 		
 		//Allow opportunity for errors and messages to display
-		AutomationHelper.wait(3);
+		AutomationHelper.waitSeconds(3);
 		
 		Reporter.log("Register button clicked", true);
 		Reporter.log("", true);

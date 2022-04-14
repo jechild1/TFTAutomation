@@ -1823,7 +1823,7 @@ public abstract class MenusPageFactory extends TFTBase {
 			return Integer.valueOf(notificationsLink.getText());
 
 		} catch (NumberFormatException e) {
-			AutomationHelper.wait(2);
+			AutomationHelper.waitSeconds(2);
 			return Integer.valueOf(notificationsLink.getText());
 
 		}

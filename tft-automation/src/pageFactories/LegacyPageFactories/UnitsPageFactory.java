@@ -55,7 +55,7 @@ public class UnitsPageFactory extends TestConfig {
 		addNewUnitLink.click();
 		Reporter.log("Add New Unit link clicked", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 	
 	/**

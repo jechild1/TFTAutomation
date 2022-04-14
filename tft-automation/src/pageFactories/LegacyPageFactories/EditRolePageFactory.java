@@ -104,7 +104,7 @@ public class EditRolePageFactory extends TestConfig {
 		save.click();
 		Reporter.log("Save button clicked", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 
 
@@ -117,7 +117,7 @@ public class EditRolePageFactory extends TestConfig {
 		Reporter.log("Back to Role List link clicked", true);
 		Reporter.log("", true);
 		;
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 		;
 	}
 

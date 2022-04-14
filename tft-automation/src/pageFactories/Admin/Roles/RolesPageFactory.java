@@ -43,7 +43,7 @@ public class RolesPageFactory extends IndexBase {
 		addNewRoleLink.click();
 		Reporter.log("Add New Role link clicked", true);
 		Reporter.log("", true);;
-		AutomationHelper.wait(2);;
+		AutomationHelper.waitSeconds(2);;
 	}
 	
 	/**

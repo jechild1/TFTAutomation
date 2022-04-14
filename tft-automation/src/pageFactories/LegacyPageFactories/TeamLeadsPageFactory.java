@@ -53,7 +53,7 @@ public class TeamLeadsPageFactory extends TestConfig {
 		addATeamLeadLink.click();
 		Reporter.log("Add a Team Lead link clicked", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 	
 	/**

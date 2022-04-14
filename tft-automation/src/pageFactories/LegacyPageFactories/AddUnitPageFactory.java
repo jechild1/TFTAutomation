@@ -132,7 +132,7 @@ public class AddUnitPageFactory extends TestConfig {
 		createButton.click();
 		Reporter.log("Create button clicked. ", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 
 	/**
@@ -143,7 +143,7 @@ public class AddUnitPageFactory extends TestConfig {
 		backToUnitListLink.click();
 		Reporter.log("Clicked Back to Unit List link. ", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 
 	/**

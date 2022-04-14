@@ -274,7 +274,7 @@ public class FitbitRegistrationPageFactory extends TFTConfig {
 		AutomationHelper.printMethodName();
 		Reporter.log("Setting the email field to " + email, true);
 		this.email.click();
-		AutomationHelper.wait(3);
+		AutomationHelper.waitSeconds(3);
 		this.email.sendKeys(email);
 	}
 
@@ -298,7 +298,7 @@ public class FitbitRegistrationPageFactory extends TFTConfig {
 		AutomationHelper.printMethodName();
 		// Because first name is the first field we set, we must force a pause here to
 		// let the javascript update.
-		AutomationHelper.wait(3);
+		AutomationHelper.waitSeconds(3);
 		Reporter.log("Setting the First Name field to " + firstName, true);
 		this.firstName.sendKeys(firstName);
 	}

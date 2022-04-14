@@ -54,7 +54,7 @@ public class TeamsPageFactory extends TestConfig {
 		addNewTeamLink.click();
 		Reporter.log("Add New Team Link clicked", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 	
 	/**

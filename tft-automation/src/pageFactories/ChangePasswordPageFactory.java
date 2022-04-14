@@ -202,7 +202,7 @@ public class ChangePasswordPageFactory extends TFTConfig {
 		changePassword.click();
 		Reporter.log("Change Password button clicked", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 	
 	/**

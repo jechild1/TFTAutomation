@@ -106,12 +106,12 @@ public class DeviceRegistrationMod extends TFTConfig {
 		try {
 			Robot bot = new Robot();
 			driver.switchTo().activeElement().sendKeys(email);
-			AutomationHelper.wait(1);
+			AutomationHelper.waitSeconds(1);
 			bot.keyPress(KeyEvent.VK_TAB);
 			bot.keyRelease(KeyEvent.VK_TAB);
 
 			driver.switchTo().activeElement().sendKeys(password);
-			AutomationHelper.wait(1);
+			AutomationHelper.waitSeconds(1);
 
 			fitbitRegistration.setRememberMeCheckbox(false);
 			// Tabs to "Forgot Password" link
@@ -343,7 +343,7 @@ public class DeviceRegistrationMod extends TFTConfig {
 			garminConnectAccountCreation.createAccount(excelFile, worksheetName, userName, password,
 					garminAccountSignInWindow);
 
-			AutomationHelper.wait(3);
+			AutomationHelper.waitSeconds(3);
 
 			driver.switchTo().window(originalTFTWindow);
 			driver.switchTo().defaultContent();

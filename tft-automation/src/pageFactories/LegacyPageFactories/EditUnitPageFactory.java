@@ -78,7 +78,7 @@ public class EditUnitPageFactory extends TestConfig {
 		saveButton.click();
 		Reporter.log("Save button clicked. ", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 
 	/**
@@ -89,7 +89,7 @@ public class EditUnitPageFactory extends TestConfig {
 		backToUnitListLink.click();
 		Reporter.log("Clicked Back to Unit List link. ", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 
 	/**

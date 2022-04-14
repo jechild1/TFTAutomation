@@ -131,7 +131,7 @@ public class WarningAndConsentBannerPageFactory extends TFTConfig {
 		Reporter.log(timeReport, true);
 		Reporter.log("", true);
 		
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 
 }

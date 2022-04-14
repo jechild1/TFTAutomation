@@ -88,7 +88,7 @@ public class GarminConnectPageFactory extends TFTConfig {
 		authorizeButton.click();
 		Reporter.log("Authroize button clicked. ", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 
 	/**
@@ -99,7 +99,7 @@ public class GarminConnectPageFactory extends TFTConfig {
 		doNotAuthorizeButton.click();
 		Reporter.log("Do not Authroize button clicked. ", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 
 	/**
@@ -108,7 +108,7 @@ public class GarminConnectPageFactory extends TFTConfig {
 	public void clickSignIn() {
 		Reporter.log("Clicking the Sign In button.", true);
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", signInButton);
-		AutomationHelper.wait(1);
+		AutomationHelper.waitSeconds(1);
 
 		signInButton.click();
 		Reporter.log("Sign In button clicked. ", true);

@@ -212,7 +212,7 @@ public abstract class TFTBase extends TFTConfig {
 	 */
 	public void waitForPageToLoad() {
 		while (isPageLoading()) {
-			AutomationHelper.wait(1);
+			AutomationHelper.waitSeconds(1);
 		}
 	}
 
@@ -237,9 +237,9 @@ public abstract class TFTBase extends TFTConfig {
 	protected void waitForSavedSuccessfullyModal() {
 
 		waitForPageToLoad();
-		AutomationHelper.wait(1);
+		AutomationHelper.waitSeconds(1);
 		while (isSavedSuccessfullyModalPresent()) {
-			AutomationHelper.wait(1);
+			AutomationHelper.waitSeconds(1);
 		}
 	}
 
@@ -268,9 +268,9 @@ public abstract class TFTBase extends TFTConfig {
 	 */
 	protected void waitForBackdropToBeRemoved() {
 		waitForPageToLoad();
-		AutomationHelper.wait(1);
+		AutomationHelper.waitSeconds(1);
 		while (isModalBackdropPresent()) {
-			AutomationHelper.wait(1);
+			AutomationHelper.waitSeconds(1);
 		}
 	}
 	

@@ -98,7 +98,7 @@ public class GarminAccountRegistrationPageFactory extends TFTConfig {
 		Reporter.log("Clicking the Create One link.", true);
 		createOneLink.click();
 
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 
 	/**
@@ -204,6 +204,6 @@ public class GarminAccountRegistrationPageFactory extends TFTConfig {
 		AutomationHelper.printMethodName();
 		Reporter.log("Clicking the Create Account button.", true);
 		createAccountButton.click();
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 }

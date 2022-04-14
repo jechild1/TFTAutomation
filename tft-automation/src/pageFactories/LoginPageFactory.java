@@ -180,7 +180,7 @@ public class LoginPageFactory extends TFTConfig {
 		logInButton.click();
 		Reporter.log("Log in button clicked", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 
 	}
 	
@@ -193,7 +193,7 @@ public class LoginPageFactory extends TFTConfig {
 		registerAsNewUserLink.click();
 		Reporter.log("Register as a new user link clicked", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 
 	}
 

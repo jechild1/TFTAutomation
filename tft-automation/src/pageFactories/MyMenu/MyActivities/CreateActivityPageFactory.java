@@ -122,7 +122,7 @@ public class CreateActivityPageFactory extends TFTConfig {
 				ExpectedConditions.elementToBeClickable(this.activityDropdown));
 
 		myDropDown.selectByVisibleText(activity);
-		AutomationHelper.wait(1);
+		AutomationHelper.waitSeconds(1);
 	}
 
 	/**
@@ -355,7 +355,7 @@ public class CreateActivityPageFactory extends TFTConfig {
 	 */
 	public void clickAddWorkoutEntry() {
 		addWorkoutEntryLink.click();
-		AutomationHelper.wait(1);
+		AutomationHelper.waitSeconds(1);
 	}
 
 	/**

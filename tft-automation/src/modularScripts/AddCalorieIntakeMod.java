@@ -175,7 +175,7 @@ public class AddCalorieIntakeMod extends TFTConfig {
 			// Because the modal fades in, we have to pause to allow ample time.
 			// We can't wait for objects because it finds them and tries to
 			// proceed
-			AutomationHelper.wait(2);
+			AutomationHelper.waitSeconds(2);
 
 			// See if the food name is in the table. If so, click it and use the
 			// Lookup Entry method. If not, close out the window and validate
@@ -210,7 +210,7 @@ public class AddCalorieIntakeMod extends TFTConfig {
 				closeTableX.click();
 
 				// Wait two seconds for the modal to fade out
-				AutomationHelper.wait(2);
+				AutomationHelper.waitSeconds(2);
 
 				// Execute verification points for manual entry
 				addFood.setManualEntryServingSize(servingSize);

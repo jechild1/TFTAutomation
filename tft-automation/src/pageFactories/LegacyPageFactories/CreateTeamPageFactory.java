@@ -171,7 +171,7 @@ public class CreateTeamPageFactory extends TestConfig {
 		createButton.click();
 		Reporter.log("Create button clicked. ", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 	
 	/**
@@ -182,7 +182,7 @@ public class CreateTeamPageFactory extends TestConfig {
 		backToTeamListLink.click();
 		Reporter.log("Clicked Back to Team List link. ", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 	
 	/**

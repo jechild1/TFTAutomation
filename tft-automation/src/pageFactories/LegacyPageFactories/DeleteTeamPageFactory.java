@@ -75,7 +75,7 @@ public class DeleteTeamPageFactory extends TestConfig {
 		deleteButton.click();
 		Reporter.log("Delete button clicked: ", true);
 		Reporter.log("", true);
-		AutomationHelper.wait(2);
+		AutomationHelper.waitSeconds(2);
 	}
 	
 	/**
